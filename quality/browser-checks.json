@@ -1,0 +1,239 @@
+{
+  "executed_at_utc": "2026-10-12T15:56:01.018042+00:00",
+  "execution_type": "Actual Playwright/Chromium local HTTP portfolio UI tests \u2014 not SAP UAT",
+  "browser": "151.0.7922.173",
+  "checks": [
+    {
+      "id": "UI-001",
+      "check": "Root entry opens over local HTTP",
+      "status": "Passed",
+      "detail": "200 response and rendered overview heading"
+    },
+    {
+      "id": "UI-002",
+      "check": "Six KPI cards render expected synthetic values",
+      "status": "Passed",
+      "detail": "49.07% on-time; 84.89% quantity fulfilment; fixed snapshot"
+    },
+    {
+      "id": "UI-003",
+      "check": "Desktop overview fits viewport",
+      "status": "Passed",
+      "detail": "1440 CSS pixels; no document-wide horizontal overflow"
+    },
+    {
+      "id": "UI-004",
+      "check": "Representative order search and detail",
+      "status": "Passed",
+      "detail": "100 ordered; unresolved availability; no invented shipment"
+    },
+    {
+      "id": "UI-005",
+      "check": "No-result search state",
+      "status": "Passed",
+      "detail": "Zero records without runtime exception"
+    },
+    {
+      "id": "UI-006",
+      "check": "Status filter and actual CSV download",
+      "status": "Passed",
+      "detail": "17 cancelled orders exported, with header and expected ID column"
+    },
+    {
+      "id": "UI-007",
+      "check": "Shipment/invoice/allocation drill-down",
+      "status": "Passed",
+      "detail": "Linked synthetic records rendered for NS-ORD-1002"
+    },
+    {
+      "id": "UI-008",
+      "check": "Requirement search and traceability",
+      "status": "Passed",
+      "detail": "FR-004 \u2192 US-004 \u2192 TC-005/006 shown"
+    },
+    {
+      "id": "UI-009",
+      "check": "UAT details and honest statuses",
+      "status": "Passed",
+      "detail": "22 cases displayed; all Not executed; actual steps/expected results expandable"
+    },
+    {
+      "id": "UI-010",
+      "check": "AS-IS / TO-BE flowchart switching",
+      "status": "Passed",
+      "detail": "Two SVG process flowcharts; not BPMN or SAP screenshots"
+    },
+    {
+      "id": "UI-011",
+      "check": "Data analysis screen",
+      "status": "Passed",
+      "detail": "Chart, formulas and date/exclusion definitions present"
+    },
+    {
+      "id": "UI-012",
+      "check": "Evidence register",
+      "status": "Passed",
+      "detail": "Nine entries including two explicitly unverified pages; external sources not opened during UI check"
+    },
+    {
+      "id": "UI-013",
+      "check": "Document library selection",
+      "status": "Passed",
+      "detail": "Embedded business-case document loads without network calls"
+    },
+    {
+      "id": "UI-014",
+      "check": "Library download links resolve",
+      "status": "Passed",
+      "detail": "Local workbook, presentation, setup files and 2 PDFs return HTTP 200"
+    },
+    {
+      "id": "UI-015",
+      "check": "GitHub-style repository subpath",
+      "status": "Passed",
+      "detail": "/northstar-otc/ entry and relative assets tested locally; not a live GitHub deployment"
+    },
+    {
+      "id": "UI-016",
+      "check": "Alternative prebuilt entry points",
+      "status": "Passed",
+      "detail": "Viewer and downloadable HTML both render over HTTP"
+    },
+    {
+      "id": "UI-017",
+      "check": "Keyboard navigation sample",
+      "status": "Passed",
+      "detail": "Focused native navigation button activated with Enter; not a full accessibility audit"
+    },
+    {
+      "id": "UI-018",
+      "check": "Mobile layout sample",
+      "status": "Passed",
+      "detail": "390px viewport: six screens have no document-wide horizontal overflow; wide tables scroll internally"
+    },
+    {
+      "id": "UI-019",
+      "check": "JavaScript runtime errors",
+      "status": "Passed",
+      "detail": "No pageerror events across the exercised paths"
+    },
+    {
+      "id": "UI-020",
+      "check": "Self-contained runtime",
+      "status": "Passed",
+      "detail": "No external rendering/data requests attempted during the exercised paths"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "screenshots/01-overview.png",
+      "title": "Overview and KPIs",
+      "description": "Full-cohort synthetic values and denominator limitations.",
+      "kind": "Actual local Chromium screenshot; no image generation",
+      "viewport": {
+        "width": 1440,
+        "height": 1050
+      },
+      "sha256": "2a87f2e6917e84a13c32ccb97f7c4b1107e878b3cbc92f961ccd1a36c877b075"
+    },
+    {
+      "file": "screenshots/02-order-details.png",
+      "title": "Order drill-down",
+      "description": "Actual synthetic NS-ORD-1002 with linked shipment, invoice and analytical payment amounts.",
+      "kind": "Actual local Chromium screenshot; no image generation",
+      "viewport": {
+        "width": 1440,
+        "height": 1050
+      },
+      "sha256": "052a9cbc20da7184467d307bfc1b9174c9ce3ffda7d8f274029e0d3b62136b57"
+    },
+    {
+      "file": "screenshots/03-requirements.png",
+      "title": "Requirements and traceability",
+      "description": "Partial-delivery requirement, acceptance criteria and linked evidence.",
+      "kind": "Actual local Chromium screenshot; no image generation",
+      "viewport": {
+        "width": 1440,
+        "height": 1050
+      },
+      "sha256": "d67f28ea46cec0afe29e7463ab65aa321289588bc1436d4e422cbc927db2661f"
+    },
+    {
+      "file": "screenshots/04-uat.png",
+      "title": "UAT design",
+      "description": "Test cases are readable; status remains Not executed in SAP.",
+      "kind": "Actual local Chromium screenshot; no image generation",
+      "viewport": {
+        "width": 1440,
+        "height": 1050
+      },
+      "sha256": "c714e32c566f1bcfacf1b653fc98a215e113dd0d708819cbc2b5bb5fc473b6a3"
+    },
+    {
+      "file": "screenshots/05-process.png",
+      "title": "Proposed process flow",
+      "description": "Actual process screen. This viewport shows the top of a scrollable full flowchart.",
+      "kind": "Actual local Chromium screenshot; no image generation",
+      "viewport": {
+        "width": 1440,
+        "height": 1050
+      },
+      "sha256": "c40638dbdcb8e9ea30d07714beb0712a37a39321d0bdec5bf5e54974b5603cb4"
+    },
+    {
+      "file": "screenshots/06-analysis.png",
+      "title": "Data and KPI definitions",
+      "description": "Separate day/percentage chart and the KPI calculation contract.",
+      "kind": "Actual local Chromium screenshot; no image generation",
+      "viewport": {
+        "width": 1440,
+        "height": 1050
+      },
+      "sha256": "0f80916377fdae02b23f47cc27facf3f3c10b24486276b166a81d181cba712b4"
+    },
+    {
+      "file": "screenshots/07-evidence.png",
+      "title": "SAP evidence register",
+      "description": "Reviewed documentation claims and scope limitations; no tenant execution.",
+      "kind": "Actual local Chromium screenshot; no image generation",
+      "viewport": {
+        "width": 1440,
+        "height": 1050
+      },
+      "sha256": "17f3d8e88c726b0d4f978574e98b9e9b61492fbe66bdd3dcf1a8e203a40b069e"
+    },
+    {
+      "file": "screenshots/08-library.png",
+      "title": "Document library and downloads",
+      "description": "Choose phase documents and open the full repository download assets.",
+      "kind": "Actual local Chromium screenshot; no image generation",
+      "viewport": {
+        "width": 1440,
+        "height": 1050
+      },
+      "sha256": "09c83c25e3d8759697c708c9440f79c55b48d44297ad526cea5cbc68fc711649"
+    },
+    {
+      "file": "screenshots/09-mobile.png",
+      "title": "Mobile overview",
+      "description": "Actual 390px Chromium viewport; not a physical-device test.",
+      "kind": "Actual local Chromium screenshot; no image generation",
+      "viewport": {
+        "width": 390,
+        "height": 1000
+      },
+      "sha256": "5d868c880425834886230cd3cfa2728eb0e2651651476f1056910f1394a0b6a1"
+    }
+  ],
+  "passed": true,
+  "local_only": true,
+  "github_deployed": false,
+  "file_url": "Not tested successfully: managed browser policy blocks file URLs; HTTP route verified",
+  "runtime_errors": [],
+  "external_requests": [],
+  "index_sha256": "3fc848d55e1fcfc5ba33c5ad1b85770341dbadd5a41a5004ea55e74bda935746",
+  "source_sha256": {
+    "viewer/app.js": "c7f3481738073eb90d2cbc73a64ed3dfedbf3b2fa7f722cae1d709e351f8b7a4",
+    "viewer/style.css": "2bd63f3be1078f207f733d4e6bc9fdb0624f92af415252e2c80cf9c94f3ca800"
+  }
+}

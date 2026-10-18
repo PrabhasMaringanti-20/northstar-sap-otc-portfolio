@@ -1,0 +1,6 @@
+Role,Change,Training,Communication,Support
+Sales,Promise only checked quantity/date; retain original promise; correction queue,45-minute NS-ORD-1001 and missing-data exercise,Before trial: explain why checks protect promise quality,Sales key user → process owner → IT if technical
+Warehouse,Separate physical dispatch from posting; resolve quantity mismatch,45-minute partial pick and delayed-posting exercise,Daily handoff checklist and unresolved stock review,Warehouse key user → Warehouse owner → IT
+Finance,Own billable population; controlled correction and payment handling,"60-minute billing retry, credit release and partial-payment cases",Daily unbilled/credit/payment review; weekly control issues,Finance key user → Finance owner → IT
+Customer Service,Use authoritative status; capture partial agreement and next action,30-minute status enquiry and customer agreement role-play,Short quick guide; weekly feedback session in pilot,Customer Service key user → relevant process owner
+IT,"Support role matrix, data contracts, refresh and evidence retention","60-minute access, failed-refresh and reconciliation exercise",Release notes and change-impact review before changes,IT support → authorized platform support where applicable

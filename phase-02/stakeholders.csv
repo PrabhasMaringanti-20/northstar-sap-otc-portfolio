@@ -1,0 +1,6 @@
+Role,Responsibility,Interest,Influence,Concern,Engagement
+Sales,"Order capture, validation, commercial promise",Fast acceptance and customer retention,High: controls promises,Checks may slow response,Review incomplete/short-stock examples and promise rules
+Warehouse,"Stock accuracy, picking, dispatch and posting evidence",Feasible priorities and correct quantities,High: controls fulfilment,Sales promises exceed usable stock,"Walk shortages, split deliveries and event recording"
+Finance,"Credit, billing, receivables and controls",Accurate charges and supported clearing,High: financial control owner,Pressure to bypass blocks; late handoffs,"Review authorization, billing and payment scenarios"
+Customer Service,Status communication and exception coordination,Reliable answers and named owner,Medium: customer voice,Conflicting statuses and partial shipments,Walk customer enquiry and delivery-agreement cases
+IT,"Feasibility, roles, integration and reporting support","Standard, maintainable design",High: technical feasibility,Custom dashboard scope and unverified integrations,Evidence-led fit review and data contract checks

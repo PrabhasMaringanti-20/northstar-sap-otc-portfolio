@@ -1,0 +1,2 @@
+# Optional real-browser verification. Not needed to view or host the prebuilt app.
+playwright==1.62.0

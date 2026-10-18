@@ -1,0 +1,9 @@
+Action,Sales,Warehouse,Finance,Customer Service,IT
+View operational status,Allow,Allow,Allow,Allow,Deny
+Confirm commercial promise,Allow,Deny,Deny,Deny,Deny
+Request credit release,Allow,Deny,Deny,Allow,Deny
+Approve credit release,Deny,Deny,Allow,Deny,Deny
+Post goods issue,Deny,Allow,Deny,Deny,Deny
+Create/correct invoice,Deny,Deny,Allow,Deny,Deny
+Allocate payment,Deny,Deny,Allow,Deny,Deny
+Change access configuration,Deny,Deny,Deny,Deny,Allow

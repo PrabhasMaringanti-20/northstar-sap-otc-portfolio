@@ -1,0 +1,287 @@
+{
+  "context": {
+    "as_of": "2026-10-11",
+    "seed": 20261011,
+    "counts": {
+      "customers": 20,
+      "products": 5,
+      "orders": 300,
+      "deliveries": 285,
+      "invoices": 262,
+      "receipts": 209,
+      "allocations": 197,
+      "events": 688
+    },
+    "cancelled": 17,
+    "completed": 232,
+    "open_non_cancelled": 51,
+    "unknown_promise": 1,
+    "due_promises": 269,
+    "on_time": 132,
+    "received_units": 12335,
+    "ordered_units": 14530,
+    "unbilled_goods_issued": 22,
+    "split_orders": 21,
+    "partially_received_orders": 21,
+    "partially_paid_invoices": 20,
+    "unallocated_pence": 306000,
+    "invoice_outstanding_pence": 14270500,
+    "total_order_value_pence": 55437000,
+    "checks": 24
+  },
+  "metrics": [
+    {
+      "id": "KPI-001",
+      "name": "Order cycle time",
+      "value": 6.1595,
+      "unit": "calendar days",
+      "denominator": 232,
+      "basis": "Synthetic baseline; not measured business performance"
+    },
+    {
+      "id": "KPI-002",
+      "name": "On-time delivery",
+      "value": 49.0706,
+      "unit": "%",
+      "denominator": 269,
+      "basis": "Synthetic baseline; not measured business performance"
+    },
+    {
+      "id": "KPI-003",
+      "name": "Order fulfilment rate",
+      "value": 84.8933,
+      "unit": "%",
+      "denominator": 14530,
+      "basis": "Synthetic baseline; not measured business performance"
+    },
+    {
+      "id": "KPI-004",
+      "name": "Billing cycle time",
+      "value": 1.9504,
+      "unit": "calendar days",
+      "denominator": 262,
+      "basis": "Synthetic baseline; not measured business performance"
+    },
+    {
+      "id": "KPI-005",
+      "name": "Order error rate",
+      "value": 22.3333,
+      "unit": "%",
+      "denominator": 300,
+      "basis": "Synthetic baseline; not measured business performance"
+    },
+    {
+      "id": "KPI-006",
+      "name": "Manual-touch rate",
+      "value": 76.3333,
+      "unit": "%",
+      "denominator": 300,
+      "basis": "Synthetic baseline; not measured business performance"
+    }
+  ],
+  "checks": [
+    {
+      "check_id": "DQ-001",
+      "name": "customers primary key",
+      "status": "Passed",
+      "detail": "20 unique non-null keys",
+      "execution_type": "Executed Python/SQLite data check",
+      "date": "2026-10-11"
+    },
+    {
+      "check_id": "DQ-002",
+      "name": "products primary key",
+      "status": "Passed",
+      "detail": "5 unique non-null keys",
+      "execution_type": "Executed Python/SQLite data check",
+      "date": "2026-10-11"
+    },
+    {
+      "check_id": "DQ-003",
+      "name": "orders primary key",
+      "status": "Passed",
+      "detail": "300 unique non-null keys",
+      "execution_type": "Executed Python/SQLite data check",
+      "date": "2026-10-11"
+    },
+    {
+      "check_id": "DQ-004",
+      "name": "deliveries primary key",
+      "status": "Passed",
+      "detail": "285 unique non-null keys",
+      "execution_type": "Executed Python/SQLite data check",
+      "date": "2026-10-11"
+    },
+    {
+      "check_id": "DQ-005",
+      "name": "invoices primary key",
+      "status": "Passed",
+      "detail": "262 unique non-null keys",
+      "execution_type": "Executed Python/SQLite data check",
+      "date": "2026-10-11"
+    },
+    {
+      "check_id": "DQ-006",
+      "name": "receipts primary key",
+      "status": "Passed",
+      "detail": "209 unique non-null keys",
+      "execution_type": "Executed Python/SQLite data check",
+      "date": "2026-10-11"
+    },
+    {
+      "check_id": "DQ-007",
+      "name": "allocations primary key",
+      "status": "Passed",
+      "detail": "197 unique non-null keys",
+      "execution_type": "Executed Python/SQLite data check",
+      "date": "2026-10-11"
+    },
+    {
+      "check_id": "DQ-008",
+      "name": "events primary key",
+      "status": "Passed",
+      "detail": "688 unique non-null keys",
+      "execution_type": "Executed Python/SQLite data check",
+      "date": "2026-10-11"
+    },
+    {
+      "check_id": "DQ-009",
+      "name": "Order master references",
+      "status": "Passed",
+      "detail": "Customer and product parents exist",
+      "execution_type": "Executed Python/SQLite data check",
+      "date": "2026-10-11"
+    },
+    {
+      "check_id": "DQ-010",
+      "name": "Delivery/invoice parent references",
+      "status": "Passed",
+      "detail": "No orphan fulfilment records",
+      "execution_type": "Executed Python/SQLite data check",
+      "date": "2026-10-11"
+    },
+    {
+      "check_id": "DQ-011",
+      "name": "Receipt/allocation references",
+      "status": "Passed",
+      "detail": "No orphan payment links",
+      "execution_type": "Executed Python/SQLite data check",
+      "date": "2026-10-11"
+    },
+    {
+      "check_id": "DQ-012",
+      "name": "Receipt customer references",
+      "status": "Passed",
+      "detail": "Every cash receipt has a known synthetic customer",
+      "execution_type": "Executed Python/SQLite data check",
+      "date": "2026-10-11"
+    },
+    {
+      "check_id": "DQ-013",
+      "name": "Order value arithmetic",
+      "status": "Passed",
+      "detail": "Integer pence, tax excluded",
+      "execution_type": "Executed Python/SQLite data check",
+      "date": "2026-10-11"
+    },
+    {
+      "check_id": "DQ-014",
+      "name": "Quantity bounds and cancelled fulfilment",
+      "status": "Passed",
+      "detail": "No overdelivery or cancelled order shipment",
+      "execution_type": "Executed Python/SQLite data check",
+      "date": "2026-10-11"
+    },
+    {
+      "check_id": "DQ-015",
+      "name": "Partial permission",
+      "status": "Passed",
+      "detail": "Split/short shipments require permission in synthetic baseline",
+      "execution_type": "Executed Python/SQLite data check",
+      "date": "2026-10-11"
+    },
+    {
+      "check_id": "DQ-016",
+      "name": "Delivery chronology",
+      "status": "Passed",
+      "detail": "Physical and posting events separated; future actuals excluded",
+      "execution_type": "Executed Python/SQLite data check",
+      "date": "2026-10-11"
+    },
+    {
+      "check_id": "DQ-017",
+      "name": "Invoice chronology and amount",
+      "status": "Passed",
+      "detail": "Only observed goods-issued deliveries billed; one active invoice per delivery",
+      "execution_type": "Executed Python/SQLite data check",
+      "date": "2026-10-11"
+    },
+    {
+      "check_id": "DQ-018",
+      "name": "No duplicate active invoice",
+      "status": "Passed",
+      "detail": "Simplified dataset excludes correction documents",
+      "execution_type": "Executed Python/SQLite data check",
+      "date": "2026-10-11"
+    },
+    {
+      "check_id": "DQ-019",
+      "name": "Allocation upper bounds",
+      "status": "Passed",
+      "detail": "No cash or invoice over-allocation",
+      "execution_type": "Executed Python/SQLite data check",
+      "date": "2026-10-11"
+    },
+    {
+      "check_id": "DQ-020",
+      "name": "Allocation chronology/customer",
+      "status": "Passed",
+      "detail": "Matching customers and valid event order",
+      "execution_type": "Executed Python/SQLite data check",
+      "date": "2026-10-11"
+    },
+    {
+      "check_id": "DQ-021",
+      "name": "Python versus independent SQL KPIs",
+      "status": "Passed",
+      "detail": "All six calculations agree before rounding",
+      "execution_type": "Executed Python/SQLite data check",
+      "date": "2026-10-11"
+    },
+    {
+      "check_id": "DQ-022",
+      "name": "Example retained",
+      "status": "Passed",
+      "detail": "Representative case retains unresolved availability; no fabricated fulfilment",
+      "execution_type": "Executed Python/SQLite data check",
+      "date": "2026-10-11"
+    },
+    {
+      "check_id": "DQ-023",
+      "name": "Split and partial payment coverage",
+      "status": "Passed",
+      "detail": "Dataset includes split deliveries and unpaid residual analytical amounts",
+      "execution_type": "Executed Python/SQLite data check",
+      "date": "2026-10-11"
+    },
+    {
+      "check_id": "DQ-024",
+      "name": "Four-order hand oracle",
+      "status": "Passed",
+      "detail": "Cycle 4d; on-time 50%; fulfilment 46.6667%; error 25%; manual 50%; billing 2d; value \u00a310,000",
+      "execution_type": "Executed Python/SQLite data check",
+      "date": "2026-10-11"
+    }
+  ],
+  "sha256": {
+    "allocations.csv": "a8925e1608f87816bbc91b0819109aa48dd7a95194460a5502b1e6a987eabda6",
+    "customers.csv": "0a13746660f6851cec699577686a12d02e0f3b6b58d03e1ba73bc86c29c00390",
+    "deliveries.csv": "c4890f6a788a82a85bd042a70f285b838ac506f3e31e3eff8b5b9a661632dc59",
+    "events.csv": "f55912058d6052ddbed062663dec1298d4f72e2405640044171637499511bfb1",
+    "invoices.csv": "6cea261942c2555c0453a3cab9e54dbb8b964fabd54996858a959c71c9975868",
+    "order_summary.csv": "117038d4eb59f15e30e78ecf939ba79889ac60b6f6fa706d0f10a3db88de5714",
+    "orders.csv": "3eb736f6d37880a676691b48b33b425bb8cb35e704450551458a31603ddc19bb",
+    "products.csv": "8b85d221fdf2eec86f0fecdc7b416dc033e0debc6548b6eba4359d3129721ea9",
+    "receipts.csv": "f8fa47f24a01442d1fe0af0c5c7295a22f5b0704d2afc5169ef78dc394c29719"
+  }
+}

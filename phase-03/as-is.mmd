@@ -1,0 +1,30 @@
+flowchart TD
+ A[Sales: receive customer order] --> B{Data and price correct?}
+ B -- No --> C[Sales: request correction / retain draft]
+ C --> B
+ B -- Yes --> D{Finance: credit or order block?}
+ D -- Yes --> E[Responsible owner reviews / no dispatch]
+ E --> D
+ D -- No --> F[Sales asks Warehouse about stock]
+ F --> G{Enough stock?}
+ G -- No --> H{Customer agrees partial?}
+ H -- No --> I[Sales: wait / revise promise]
+ I --> F
+ H -- Yes --> J[Warehouse: pick permitted quantity / remainder open]
+ G -- Yes --> J
+ J --> K[Warehouse: dispatch physically]
+ K --> L[Warehouse: enter stock movement and email Finance]
+ L --> M[Finance waits for handoff and creates invoice]
+ M --> N{Invoice correct?}
+ N -- No --> O[Finance: review linked correction]
+ O --> M
+ N -- Yes --> P[Finance receives payment]
+ P --> Q{Full supported match?}
+ Q -- No --> R[Finance: partial or unmatched balance review]
+ R --> S[Customer Service / IT consolidate reporting]
+ Q -- Yes --> S
+ A -. Cancellation request .-> T{Already dispatched?}
+ T -- No --> U[Sales checks dependencies and stops demand]
+ T -- Yes --> V[Finance / Warehouse: return or reversal review]
+ U --> S
+ V --> S

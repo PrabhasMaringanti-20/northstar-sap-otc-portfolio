@@ -1,0 +1,27 @@
+{
+  "handover_date": "2026-10-12",
+  "actual_browser_checks": 20,
+  "actual_screenshots": 9,
+  "tested_html_hash_matches": true,
+  "pdfs": {
+    "NorthStar_Project_Guide.pdf": {
+      "pages": 20,
+      "bookmarks": 37,
+      "readable_text_pages": 20,
+      "image_pages": 9
+    },
+    "NorthStar_Full_Portfolio.pdf": {
+      "pages": 157,
+      "bookmarks": 185,
+      "readable_text_pages": 157,
+      "image_pages": 2
+    }
+  },
+  "not_performed": [
+    "GitHub push/deployment",
+    "SAP UAT",
+    "learner oral assessment",
+    "LibreOffice visual rendering"
+  ],
+  "pdf_visual_review": "Guide cover, screenshot page and GitHub-command page rendered and visually inspected."
+}

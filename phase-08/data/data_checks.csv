@@ -1,0 +1,25 @@
+check_id,name,status,detail,execution_type,date
+DQ-001,customers primary key,Passed,20 unique non-null keys,Executed Python/SQLite data check,2026-10-11
+DQ-002,products primary key,Passed,5 unique non-null keys,Executed Python/SQLite data check,2026-10-11
+DQ-003,orders primary key,Passed,300 unique non-null keys,Executed Python/SQLite data check,2026-10-11
+DQ-004,deliveries primary key,Passed,285 unique non-null keys,Executed Python/SQLite data check,2026-10-11
+DQ-005,invoices primary key,Passed,262 unique non-null keys,Executed Python/SQLite data check,2026-10-11
+DQ-006,receipts primary key,Passed,209 unique non-null keys,Executed Python/SQLite data check,2026-10-11
+DQ-007,allocations primary key,Passed,197 unique non-null keys,Executed Python/SQLite data check,2026-10-11
+DQ-008,events primary key,Passed,688 unique non-null keys,Executed Python/SQLite data check,2026-10-11
+DQ-009,Order master references,Passed,Customer and product parents exist,Executed Python/SQLite data check,2026-10-11
+DQ-010,Delivery/invoice parent references,Passed,No orphan fulfilment records,Executed Python/SQLite data check,2026-10-11
+DQ-011,Receipt/allocation references,Passed,No orphan payment links,Executed Python/SQLite data check,2026-10-11
+DQ-012,Receipt customer references,Passed,Every cash receipt has a known synthetic customer,Executed Python/SQLite data check,2026-10-11
+DQ-013,Order value arithmetic,Passed,"Integer pence, tax excluded",Executed Python/SQLite data check,2026-10-11
+DQ-014,Quantity bounds and cancelled fulfilment,Passed,No overdelivery or cancelled order shipment,Executed Python/SQLite data check,2026-10-11
+DQ-015,Partial permission,Passed,Split/short shipments require permission in synthetic baseline,Executed Python/SQLite data check,2026-10-11
+DQ-016,Delivery chronology,Passed,Physical and posting events separated; future actuals excluded,Executed Python/SQLite data check,2026-10-11
+DQ-017,Invoice chronology and amount,Passed,Only observed goods-issued deliveries billed; one active invoice per delivery,Executed Python/SQLite data check,2026-10-11
+DQ-018,No duplicate active invoice,Passed,Simplified dataset excludes correction documents,Executed Python/SQLite data check,2026-10-11
+DQ-019,Allocation upper bounds,Passed,No cash or invoice over-allocation,Executed Python/SQLite data check,2026-10-11
+DQ-020,Allocation chronology/customer,Passed,Matching customers and valid event order,Executed Python/SQLite data check,2026-10-11
+DQ-021,Python versus independent SQL KPIs,Passed,All six calculations agree before rounding,Executed Python/SQLite data check,2026-10-11
+DQ-022,Example retained,Passed,Representative case retains unresolved availability; no fabricated fulfilment,Executed Python/SQLite data check,2026-10-11
+DQ-023,Split and partial payment coverage,Passed,Dataset includes split deliveries and unpaid residual analytical amounts,Executed Python/SQLite data check,2026-10-11
+DQ-024,Four-order hand oracle,Passed,"Cycle 4d; on-time 50%; fulfilment 46.6667%; error 25%; manual 50%; billing 2d; value £10,000",Executed Python/SQLite data check,2026-10-11

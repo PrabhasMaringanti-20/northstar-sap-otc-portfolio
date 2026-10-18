@@ -1,0 +1,9 @@
+Table,Grain,Primary_key,Foreign_keys
+customers,One fictional customer,customer_id,None
+products,One stocked product,product_id,None
+orders,One single-line order,order_id,customer_id → customers; product_id → products
+deliveries,One shipment for an order,delivery_id,order_id → orders
+invoices,One active net-only invoice per delivery,invoice_id,delivery_id → deliveries
+receipts,One incoming net-only receipt,receipt_id,customer_id → customers
+allocations,One receipt-to-invoice allocation,allocation_id,receipt_id → receipts; invoice_id → invoices
+events,One intake/quality/manual/cancellation event,event_id,order_id → orders

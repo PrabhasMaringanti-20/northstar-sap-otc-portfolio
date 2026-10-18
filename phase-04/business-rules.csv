@@ -1,0 +1,13 @@
+ID,Rule,Owner,Rationale,Status
+RULE-001,"Before confirmation require active customer, ship-to, product, positive quantity, valid price, currency and requested date. Drafts may be incomplete.",Sales,"Avoid knowingly releasing incomplete orders; field list proposed, not a SAP default.",Proposed simulation policy
+RULE-002,"Every open exception needs one accountable role, next action and next review date.",Customer Service,Daily review proposed to prevent unowned handoffs.,Proposed simulation policy
+RULE-003,Keep requested receipt and initial confirmed receipt dates separately; later changes must not overwrite the original promise.,Sales,Prevents improving on-time delivery by moving the denominator date.,Proposed simulation policy
+RULE-004,Partial deliveries require customer agreement recorded on the order; default to review when unknown.,Customer Service,A partial shipment can add cost or disrupt customer operations.,Proposed simulation policy
+RULE-005,Credit release is a Finance responsibility; Sales and Warehouse may request review but not self-release. Manual order blocks retain their own reasons.,Finance,Separation of duties; actual authorization model unvalidated.,Proposed simulation policy
+RULE-006,"Capture dispatch, goods-issue posting and receipt as separate events. Never treat goods issue as proof of customer receipt.",Warehouse,Correct service measurement and posting reconciliation.,Proposed simulation policy
+RULE-007,Cancel before dispatch only after checking dependent documents; after dispatch route to controlled return/reversal review.,Sales,Avoid deleting history; full returns redesign is out of scope.,Proposed simulation policy
+RULE-008,Finance reviews billable and unbilled exceptions each business day; escalate items still unbilled on the next review.,Finance,"Proposed daily operating cadence, not a proven 24-hour SAP service level.",Proposed simulation policy
+RULE-009,Bill only eligible quantity once; preserve correction links and original posted documents.,Finance,Invoice correctness and retry safety; exact system configuration unresolved.,Proposed simulation policy
+RULE-010,Allocate only to supported customer/invoice matches; preserve partial and unallocated balances without automatic write-off.,Finance,No invented tolerance or forced clearing.,Proposed simulation policy
+RULE-011,Aggregate child records to their intended parent grain before combining measures.,Analyst,Prevents delivery/payment join duplication.,Proposed simulation policy
+RULE-012,Show report as-of time and preserve critical change history; do not present missing evidence as zero.,IT,Allows users to assess reliability.,Proposed simulation policy

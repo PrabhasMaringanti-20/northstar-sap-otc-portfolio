@@ -1,0 +1,51 @@
+Table,Field,Type,Nullable,Definition,Example,Rule
+customers,customer_id,text,No,Stable synthetic identifier,CUST-001,Unique non-null primary key
+customers,customer_name,text,No,Fictional descriptive name,Alder Engineering Ltd,See generation assumptions and KPI contract
+customers,country,text,No,GB only,GB,See generation assumptions and KPI contract
+customers,currency,text,No,GBP only,GBP,See generation assumptions and KPI contract
+customers,payment_terms_days,integer,No,30 calendar days assumed,30,See generation assumptions and KPI contract
+products,product_id,text,No,Stable synthetic identifier,PROD-001,Unique non-null primary key
+products,product_name,text,No,Fictional descriptive name,Standard mounting bracket,See generation assumptions and KPI contract
+products,unit_price_pence,integer,No,Net GBP unit price in integer pence,2500,See generation assumptions and KPI contract
+products,uom,text,No,"EA, each",EA,See generation assumptions and KPI contract
+orders,order_id,text,No,Stable synthetic identifier,NS-ORD-1001,Unique non-null primary key
+orders,customer_id,text,No,Stable synthetic identifier,CUST-001,Referential integrity
+orders,product_id,text,No,Stable synthetic identifier,PROD-001,Referential integrity
+orders,warehouse_id,text,No,WH-01 only,WH-01,See generation assumptions and KPI contract
+orders,received_date,ISO date,No,"Order/customer cash receipt date according to table; actual, not future",2026-10-05,See generation assumptions and KPI contract
+orders,requested_receipt_date,ISO date,No,Customer request; not a confirmed promise,2026-10-09,See generation assumptions and KPI contract
+orders,initial_confirmed_receipt_date,ISO date,Yes,Original supported receipt promise; blank means unknown,,See generation assumptions and KPI contract
+orders,ordered_qty,integer,No,Positive ordered units in EA,100,See generation assumptions and KPI contract
+orders,unit_price_pence,integer,No,Net GBP unit price in integer pence,2500,See generation assumptions and KPI contract
+orders,net_value_pence,integer,No,Ordered quantity × net unit price,250000,See generation assumptions and KPI contract
+orders,cancelled,integer,No,"1 if cancelled before dispatch, else 0",0,See generation assumptions and KPI contract
+orders,cancelled_date,ISO date,Yes,Cancellation date; blank if not cancelled,,See generation assumptions and KPI contract
+orders,partial_allowed,integer,No,1 if partial permission exists in this synthetic baseline; else 0,0,See generation assumptions and KPI contract
+orders,exception,text,No,"Synthetic explanatory label, not a measured root cause",Stock availability unresolved,See generation assumptions and KPI contract
+deliveries,delivery_id,text,No,Stable synthetic identifier,DEL-0001,Unique non-null primary key
+deliveries,order_id,text,No,Stable synthetic identifier,NS-ORD-1002,Referential integrity
+deliveries,shipped_qty,integer,No,Dispatched quantity in EA,60,See generation assumptions and KPI contract
+deliveries,dispatch_date,ISO date,No,Physical departure date,2026-09-02,See generation assumptions and KPI contract
+deliveries,goods_issue_posting_date,ISO date,Yes,System posting date; blank if not posted by snapshot,2026-09-02,See generation assumptions and KPI contract
+deliveries,customer_receipt_date,ISO date,Yes,Physical receipt evidence date; blank means unknown/not yet observed,2026-09-04,See generation assumptions and KPI contract
+invoices,invoice_id,text,No,Stable synthetic identifier,INV-0001,Unique non-null primary key
+invoices,delivery_id,text,No,Stable synthetic identifier,DEL-0001,Referential integrity
+invoices,invoice_date,ISO date,No,Invoice creation date in simplified net-only model,2026-09-05,See generation assumptions and KPI contract
+invoices,due_date,ISO date,No,Invoice date + 30 calendar days; may lie after snapshot,2026-10-05,See generation assumptions and KPI contract
+invoices,net_amount_pence,integer,No,Net-only invoice amount; VAT and accounting corrections omitted,240000,See generation assumptions and KPI contract
+receipts,receipt_id,text,No,Stable synthetic identifier,PAY-0001,Unique non-null primary key
+receipts,customer_id,text,No,Stable synthetic identifier,CUST-002,Referential integrity
+receipts,received_date,ISO date,No,"Order/customer cash receipt date according to table; actual, not future",2026-09-16,See generation assumptions and KPI contract
+receipts,amount_pence,integer,No,"Net-only cash simulation amount, not actual VAT-inclusive customer cash",240000,See generation assumptions and KPI contract
+receipts,reference,text,No,Synthetic remittance reference; unmatched text retained,INV-0001,See generation assumptions and KPI contract
+allocations,allocation_id,text,No,Stable synthetic identifier,ALLOC-0001,Unique non-null primary key
+allocations,receipt_id,text,No,Stable synthetic identifier,PAY-0001,Referential integrity
+allocations,invoice_id,text,No,Stable synthetic identifier,INV-0001,Referential integrity
+allocations,allocation_date,ISO date,No,Date receipt assigned analytically to invoice,2026-09-16,See generation assumptions and KPI contract
+allocations,allocated_pence,integer,No,Positive net-only amount assigned; not SAP clearing journal,240000,See generation assumptions and KPI contract
+events,event_id,text,No,Stable synthetic identifier,EVT-0001,Unique non-null primary key
+events,order_id,text,No,Stable synthetic identifier,NS-ORD-1001,Referential integrity
+events,event_type,text,No,"order_received, validation_error, manual_touch or cancelled",order_received,See generation assumptions and KPI contract
+events,event_date,ISO date,No,Observed synthetic event date,2026-10-05,See generation assumptions and KPI contract
+events,role,text,No,Fictional role performing event,Sales,See generation assumptions and KPI contract
+events,detail,text,No,Synthetic event explanation,Synthetic intake,See generation assumptions and KPI contract

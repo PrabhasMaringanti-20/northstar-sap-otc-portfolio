@@ -1,0 +1,689 @@
+event_id,order_id,event_type,event_date,role,detail
+EVT-0001,NS-ORD-1001,order_received,2026-10-05,Sales,Synthetic intake
+EVT-0002,NS-ORD-1002,order_received,2026-09-01,Sales,Synthetic intake
+EVT-0003,NS-ORD-1002,manual_touch,2026-09-01,Customer Service,Chase status update
+EVT-0004,NS-ORD-1003,order_received,2026-09-27,Sales,Synthetic intake
+EVT-0005,NS-ORD-1003,manual_touch,2026-09-27,Customer Service,Chase status update
+EVT-0006,NS-ORD-1004,order_received,2026-07-01,Sales,Synthetic intake
+EVT-0007,NS-ORD-1005,order_received,2026-07-18,Sales,Synthetic intake
+EVT-0008,NS-ORD-1005,manual_touch,2026-07-18,Customer Service,Chase status update
+EVT-0009,NS-ORD-1006,order_received,2026-08-30,Sales,Synthetic intake
+EVT-0010,NS-ORD-1006,manual_touch,2026-08-30,Customer Service,Chase status update
+EVT-0011,NS-ORD-1007,order_received,2026-09-08,Sales,Synthetic intake
+EVT-0012,NS-ORD-1007,manual_touch,2026-09-08,Finance,Request missing handoff information
+EVT-0013,NS-ORD-1008,order_received,2026-08-06,Sales,Synthetic intake
+EVT-0014,NS-ORD-1008,validation_error,2026-08-06,Sales,Incorrect price corrected
+EVT-0015,NS-ORD-1008,manual_touch,2026-08-06,Sales,Rekey corrected data
+EVT-0016,NS-ORD-1008,manual_touch,2026-08-06,Customer Service,Chase status update
+EVT-0017,NS-ORD-1009,order_received,2026-07-10,Sales,Synthetic intake
+EVT-0018,NS-ORD-1009,validation_error,2026-07-10,Sales,Incorrect price corrected
+EVT-0019,NS-ORD-1009,manual_touch,2026-07-10,Sales,Rekey corrected data
+EVT-0020,NS-ORD-1009,manual_touch,2026-07-10,Customer Service,Chase status update
+EVT-0021,NS-ORD-1010,order_received,2026-07-24,Sales,Synthetic intake
+EVT-0022,NS-ORD-1011,order_received,2026-09-22,Sales,Synthetic intake
+EVT-0023,NS-ORD-1011,validation_error,2026-09-22,Sales,Missing ship-to corrected
+EVT-0024,NS-ORD-1011,manual_touch,2026-09-22,Sales,Rekey corrected data
+EVT-0025,NS-ORD-1011,manual_touch,2026-09-22,Customer Service,Chase status update
+EVT-0026,NS-ORD-1012,order_received,2026-08-21,Sales,Synthetic intake
+EVT-0027,NS-ORD-1012,manual_touch,2026-08-21,Customer Service,Chase status update
+EVT-0028,NS-ORD-1013,order_received,2026-08-28,Sales,Synthetic intake
+EVT-0029,NS-ORD-1013,manual_touch,2026-08-28,Finance,Request missing handoff information
+EVT-0030,NS-ORD-1014,order_received,2026-09-04,Sales,Synthetic intake
+EVT-0031,NS-ORD-1014,manual_touch,2026-09-04,Customer Service,Chase status update
+EVT-0032,NS-ORD-1015,order_received,2026-10-02,Sales,Synthetic intake
+EVT-0033,NS-ORD-1015,validation_error,2026-10-02,Sales,Incorrect price corrected
+EVT-0034,NS-ORD-1015,manual_touch,2026-10-02,Sales,Rekey corrected data
+EVT-0035,NS-ORD-1015,manual_touch,2026-10-02,Customer Service,Chase status update
+EVT-0036,NS-ORD-1016,order_received,2026-10-02,Sales,Synthetic intake
+EVT-0037,NS-ORD-1017,order_received,2026-09-22,Sales,Synthetic intake
+EVT-0038,NS-ORD-1017,manual_touch,2026-09-22,Customer Service,Chase status update
+EVT-0039,NS-ORD-1018,order_received,2026-07-20,Sales,Synthetic intake
+EVT-0040,NS-ORD-1018,manual_touch,2026-07-20,Customer Service,Chase status update
+EVT-0041,NS-ORD-1018,cancelled,2026-07-20,Sales,Cancelled before dispatch
+EVT-0042,NS-ORD-1019,order_received,2026-07-10,Sales,Synthetic intake
+EVT-0043,NS-ORD-1020,order_received,2026-08-10,Sales,Synthetic intake
+EVT-0044,NS-ORD-1020,validation_error,2026-08-10,Sales,Incorrect price corrected
+EVT-0045,NS-ORD-1020,manual_touch,2026-08-10,Sales,Rekey corrected data
+EVT-0046,NS-ORD-1020,manual_touch,2026-08-10,Customer Service,Chase status update
+EVT-0047,NS-ORD-1021,order_received,2026-09-08,Sales,Synthetic intake
+EVT-0048,NS-ORD-1021,manual_touch,2026-09-08,Customer Service,Chase status update
+EVT-0049,NS-ORD-1021,manual_touch,2026-09-08,Finance,Request missing handoff information
+EVT-0050,NS-ORD-1022,order_received,2026-08-03,Sales,Synthetic intake
+EVT-0051,NS-ORD-1022,validation_error,2026-08-03,Sales,Invalid quantity corrected
+EVT-0052,NS-ORD-1022,manual_touch,2026-08-03,Sales,Rekey corrected data
+EVT-0053,NS-ORD-1023,order_received,2026-09-15,Sales,Synthetic intake
+EVT-0054,NS-ORD-1023,manual_touch,2026-09-15,Customer Service,Chase status update
+EVT-0055,NS-ORD-1023,manual_touch,2026-09-15,Finance,Request missing handoff information
+EVT-0056,NS-ORD-1024,order_received,2026-08-05,Sales,Synthetic intake
+EVT-0057,NS-ORD-1024,manual_touch,2026-08-05,Customer Service,Chase status update
+EVT-0058,NS-ORD-1025,order_received,2026-08-07,Sales,Synthetic intake
+EVT-0059,NS-ORD-1025,validation_error,2026-08-07,Sales,Incorrect price corrected
+EVT-0060,NS-ORD-1025,manual_touch,2026-08-07,Sales,Rekey corrected data
+EVT-0061,NS-ORD-1026,order_received,2026-09-05,Sales,Synthetic intake
+EVT-0062,NS-ORD-1026,manual_touch,2026-09-05,Customer Service,Chase status update
+EVT-0063,NS-ORD-1027,order_received,2026-09-03,Sales,Synthetic intake
+EVT-0064,NS-ORD-1027,validation_error,2026-09-03,Sales,Incorrect price corrected
+EVT-0065,NS-ORD-1027,manual_touch,2026-09-03,Sales,Rekey corrected data
+EVT-0066,NS-ORD-1027,manual_touch,2026-09-03,Customer Service,Chase status update
+EVT-0067,NS-ORD-1028,order_received,2026-08-29,Sales,Synthetic intake
+EVT-0068,NS-ORD-1029,order_received,2026-08-18,Sales,Synthetic intake
+EVT-0069,NS-ORD-1029,validation_error,2026-08-18,Sales,Missing ship-to corrected
+EVT-0070,NS-ORD-1029,manual_touch,2026-08-18,Sales,Rekey corrected data
+EVT-0071,NS-ORD-1029,manual_touch,2026-08-18,Customer Service,Chase status update
+EVT-0072,NS-ORD-1030,order_received,2026-07-03,Sales,Synthetic intake
+EVT-0073,NS-ORD-1030,manual_touch,2026-07-03,Customer Service,Chase status update
+EVT-0074,NS-ORD-1031,order_received,2026-09-26,Sales,Synthetic intake
+EVT-0075,NS-ORD-1031,validation_error,2026-09-26,Sales,Incorrect price corrected
+EVT-0076,NS-ORD-1031,manual_touch,2026-09-26,Sales,Rekey corrected data
+EVT-0077,NS-ORD-1032,order_received,2026-07-07,Sales,Synthetic intake
+EVT-0078,NS-ORD-1032,manual_touch,2026-07-07,Customer Service,Chase status update
+EVT-0079,NS-ORD-1033,order_received,2026-07-20,Sales,Synthetic intake
+EVT-0080,NS-ORD-1033,manual_touch,2026-07-20,Customer Service,Chase status update
+EVT-0081,NS-ORD-1033,manual_touch,2026-07-20,Finance,Request missing handoff information
+EVT-0082,NS-ORD-1034,order_received,2026-09-26,Sales,Synthetic intake
+EVT-0083,NS-ORD-1035,order_received,2026-09-11,Sales,Synthetic intake
+EVT-0084,NS-ORD-1035,manual_touch,2026-09-11,Customer Service,Chase status update
+EVT-0085,NS-ORD-1035,cancelled,2026-09-11,Sales,Cancelled before dispatch
+EVT-0086,NS-ORD-1036,order_received,2026-07-09,Sales,Synthetic intake
+EVT-0087,NS-ORD-1036,validation_error,2026-07-09,Sales,Invalid quantity corrected
+EVT-0088,NS-ORD-1036,manual_touch,2026-07-09,Sales,Rekey corrected data
+EVT-0089,NS-ORD-1036,manual_touch,2026-07-09,Customer Service,Chase status update
+EVT-0090,NS-ORD-1037,order_received,2026-07-01,Sales,Synthetic intake
+EVT-0091,NS-ORD-1038,order_received,2026-08-20,Sales,Synthetic intake
+EVT-0092,NS-ORD-1038,manual_touch,2026-08-20,Customer Service,Chase status update
+EVT-0093,NS-ORD-1039,order_received,2026-07-13,Sales,Synthetic intake
+EVT-0094,NS-ORD-1039,manual_touch,2026-07-13,Customer Service,Chase status update
+EVT-0095,NS-ORD-1040,order_received,2026-08-12,Sales,Synthetic intake
+EVT-0096,NS-ORD-1040,manual_touch,2026-08-12,Finance,Request missing handoff information
+EVT-0097,NS-ORD-1041,order_received,2026-08-16,Sales,Synthetic intake
+EVT-0098,NS-ORD-1041,manual_touch,2026-08-16,Customer Service,Chase status update
+EVT-0099,NS-ORD-1042,order_received,2026-07-13,Sales,Synthetic intake
+EVT-0100,NS-ORD-1042,manual_touch,2026-07-13,Customer Service,Chase status update
+EVT-0101,NS-ORD-1042,manual_touch,2026-07-13,Finance,Request missing handoff information
+EVT-0102,NS-ORD-1043,order_received,2026-09-15,Sales,Synthetic intake
+EVT-0103,NS-ORD-1043,validation_error,2026-09-15,Sales,Incorrect price corrected
+EVT-0104,NS-ORD-1043,manual_touch,2026-09-15,Sales,Rekey corrected data
+EVT-0105,NS-ORD-1044,order_received,2026-07-02,Sales,Synthetic intake
+EVT-0106,NS-ORD-1044,manual_touch,2026-07-02,Customer Service,Chase status update
+EVT-0107,NS-ORD-1044,manual_touch,2026-07-02,Finance,Request missing handoff information
+EVT-0108,NS-ORD-1045,order_received,2026-07-29,Sales,Synthetic intake
+EVT-0109,NS-ORD-1045,manual_touch,2026-07-29,Customer Service,Chase status update
+EVT-0110,NS-ORD-1045,manual_touch,2026-07-29,Finance,Request missing handoff information
+EVT-0111,NS-ORD-1046,order_received,2026-08-24,Sales,Synthetic intake
+EVT-0112,NS-ORD-1047,order_received,2026-09-29,Sales,Synthetic intake
+EVT-0113,NS-ORD-1047,manual_touch,2026-09-29,Customer Service,Chase status update
+EVT-0114,NS-ORD-1048,order_received,2026-08-05,Sales,Synthetic intake
+EVT-0115,NS-ORD-1048,manual_touch,2026-08-05,Customer Service,Chase status update
+EVT-0116,NS-ORD-1049,order_received,2026-07-06,Sales,Synthetic intake
+EVT-0117,NS-ORD-1050,order_received,2026-08-12,Sales,Synthetic intake
+EVT-0118,NS-ORD-1050,validation_error,2026-08-12,Sales,Missing ship-to corrected
+EVT-0119,NS-ORD-1050,manual_touch,2026-08-12,Sales,Rekey corrected data
+EVT-0120,NS-ORD-1050,manual_touch,2026-08-12,Customer Service,Chase status update
+EVT-0121,NS-ORD-1051,order_received,2026-09-06,Sales,Synthetic intake
+EVT-0122,NS-ORD-1051,manual_touch,2026-09-06,Customer Service,Chase status update
+EVT-0123,NS-ORD-1052,order_received,2026-07-10,Sales,Synthetic intake
+EVT-0124,NS-ORD-1052,cancelled,2026-07-10,Sales,Cancelled before dispatch
+EVT-0125,NS-ORD-1053,order_received,2026-10-08,Sales,Synthetic intake
+EVT-0126,NS-ORD-1053,manual_touch,2026-10-08,Customer Service,Chase status update
+EVT-0127,NS-ORD-1054,order_received,2026-08-07,Sales,Synthetic intake
+EVT-0128,NS-ORD-1054,manual_touch,2026-08-07,Customer Service,Chase status update
+EVT-0129,NS-ORD-1055,order_received,2026-07-12,Sales,Synthetic intake
+EVT-0130,NS-ORD-1056,order_received,2026-09-17,Sales,Synthetic intake
+EVT-0131,NS-ORD-1056,manual_touch,2026-09-17,Customer Service,Chase status update
+EVT-0132,NS-ORD-1056,manual_touch,2026-09-17,Finance,Request missing handoff information
+EVT-0133,NS-ORD-1057,order_received,2026-08-23,Sales,Synthetic intake
+EVT-0134,NS-ORD-1057,validation_error,2026-08-23,Sales,Missing ship-to corrected
+EVT-0135,NS-ORD-1057,manual_touch,2026-08-23,Sales,Rekey corrected data
+EVT-0136,NS-ORD-1057,manual_touch,2026-08-23,Customer Service,Chase status update
+EVT-0137,NS-ORD-1058,order_received,2026-10-05,Sales,Synthetic intake
+EVT-0138,NS-ORD-1059,order_received,2026-08-18,Sales,Synthetic intake
+EVT-0139,NS-ORD-1059,manual_touch,2026-08-18,Customer Service,Chase status update
+EVT-0140,NS-ORD-1060,order_received,2026-08-11,Sales,Synthetic intake
+EVT-0141,NS-ORD-1060,manual_touch,2026-08-11,Customer Service,Chase status update
+EVT-0142,NS-ORD-1061,order_received,2026-09-22,Sales,Synthetic intake
+EVT-0143,NS-ORD-1062,order_received,2026-07-02,Sales,Synthetic intake
+EVT-0144,NS-ORD-1062,manual_touch,2026-07-02,Customer Service,Chase status update
+EVT-0145,NS-ORD-1063,order_received,2026-10-03,Sales,Synthetic intake
+EVT-0146,NS-ORD-1063,manual_touch,2026-10-03,Customer Service,Chase status update
+EVT-0147,NS-ORD-1064,order_received,2026-07-12,Sales,Synthetic intake
+EVT-0148,NS-ORD-1064,validation_error,2026-07-12,Sales,Invalid quantity corrected
+EVT-0149,NS-ORD-1064,manual_touch,2026-07-12,Sales,Rekey corrected data
+EVT-0150,NS-ORD-1065,order_received,2026-07-29,Sales,Synthetic intake
+EVT-0151,NS-ORD-1065,manual_touch,2026-07-29,Customer Service,Chase status update
+EVT-0152,NS-ORD-1066,order_received,2026-08-05,Sales,Synthetic intake
+EVT-0153,NS-ORD-1066,manual_touch,2026-08-05,Customer Service,Chase status update
+EVT-0154,NS-ORD-1067,order_received,2026-07-30,Sales,Synthetic intake
+EVT-0155,NS-ORD-1068,order_received,2026-07-06,Sales,Synthetic intake
+EVT-0156,NS-ORD-1068,manual_touch,2026-07-06,Customer Service,Chase status update
+EVT-0157,NS-ORD-1069,order_received,2026-09-11,Sales,Synthetic intake
+EVT-0158,NS-ORD-1069,manual_touch,2026-09-11,Customer Service,Chase status update
+EVT-0159,NS-ORD-1069,cancelled,2026-09-11,Sales,Cancelled before dispatch
+EVT-0160,NS-ORD-1070,order_received,2026-09-15,Sales,Synthetic intake
+EVT-0161,NS-ORD-1071,order_received,2026-08-01,Sales,Synthetic intake
+EVT-0162,NS-ORD-1071,validation_error,2026-08-01,Sales,Invalid quantity corrected
+EVT-0163,NS-ORD-1071,manual_touch,2026-08-01,Sales,Rekey corrected data
+EVT-0164,NS-ORD-1071,manual_touch,2026-08-01,Customer Service,Chase status update
+EVT-0165,NS-ORD-1072,order_received,2026-07-09,Sales,Synthetic intake
+EVT-0166,NS-ORD-1072,manual_touch,2026-07-09,Customer Service,Chase status update
+EVT-0167,NS-ORD-1073,order_received,2026-07-19,Sales,Synthetic intake
+EVT-0168,NS-ORD-1074,order_received,2026-07-09,Sales,Synthetic intake
+EVT-0169,NS-ORD-1074,manual_touch,2026-07-09,Customer Service,Chase status update
+EVT-0170,NS-ORD-1075,order_received,2026-10-06,Sales,Synthetic intake
+EVT-0171,NS-ORD-1075,manual_touch,2026-10-06,Customer Service,Chase status update
+EVT-0172,NS-ORD-1076,order_received,2026-07-04,Sales,Synthetic intake
+EVT-0173,NS-ORD-1077,order_received,2026-07-20,Sales,Synthetic intake
+EVT-0174,NS-ORD-1077,manual_touch,2026-07-20,Customer Service,Chase status update
+EVT-0175,NS-ORD-1078,order_received,2026-07-29,Sales,Synthetic intake
+EVT-0176,NS-ORD-1078,validation_error,2026-07-29,Sales,Invalid quantity corrected
+EVT-0177,NS-ORD-1078,manual_touch,2026-07-29,Sales,Rekey corrected data
+EVT-0178,NS-ORD-1078,manual_touch,2026-07-29,Customer Service,Chase status update
+EVT-0179,NS-ORD-1079,order_received,2026-09-08,Sales,Synthetic intake
+EVT-0180,NS-ORD-1079,manual_touch,2026-09-08,Finance,Request missing handoff information
+EVT-0181,NS-ORD-1080,order_received,2026-07-09,Sales,Synthetic intake
+EVT-0182,NS-ORD-1080,manual_touch,2026-07-09,Customer Service,Chase status update
+EVT-0183,NS-ORD-1081,order_received,2026-08-15,Sales,Synthetic intake
+EVT-0184,NS-ORD-1081,manual_touch,2026-08-15,Customer Service,Chase status update
+EVT-0185,NS-ORD-1082,order_received,2026-09-14,Sales,Synthetic intake
+EVT-0186,NS-ORD-1083,order_received,2026-07-25,Sales,Synthetic intake
+EVT-0187,NS-ORD-1083,validation_error,2026-07-25,Sales,Missing ship-to corrected
+EVT-0188,NS-ORD-1083,manual_touch,2026-07-25,Sales,Rekey corrected data
+EVT-0189,NS-ORD-1083,manual_touch,2026-07-25,Customer Service,Chase status update
+EVT-0190,NS-ORD-1084,order_received,2026-09-09,Sales,Synthetic intake
+EVT-0191,NS-ORD-1084,manual_touch,2026-09-09,Customer Service,Chase status update
+EVT-0192,NS-ORD-1085,order_received,2026-08-21,Sales,Synthetic intake
+EVT-0193,NS-ORD-1085,validation_error,2026-08-21,Sales,Incorrect price corrected
+EVT-0194,NS-ORD-1085,manual_touch,2026-08-21,Sales,Rekey corrected data
+EVT-0195,NS-ORD-1086,order_received,2026-07-26,Sales,Synthetic intake
+EVT-0196,NS-ORD-1086,manual_touch,2026-07-26,Customer Service,Chase status update
+EVT-0197,NS-ORD-1086,cancelled,2026-07-26,Sales,Cancelled before dispatch
+EVT-0198,NS-ORD-1087,order_received,2026-09-08,Sales,Synthetic intake
+EVT-0199,NS-ORD-1087,manual_touch,2026-09-08,Customer Service,Chase status update
+EVT-0200,NS-ORD-1088,order_received,2026-07-29,Sales,Synthetic intake
+EVT-0201,NS-ORD-1089,order_received,2026-09-05,Sales,Synthetic intake
+EVT-0202,NS-ORD-1089,manual_touch,2026-09-05,Customer Service,Chase status update
+EVT-0203,NS-ORD-1090,order_received,2026-07-16,Sales,Synthetic intake
+EVT-0204,NS-ORD-1090,manual_touch,2026-07-16,Customer Service,Chase status update
+EVT-0205,NS-ORD-1091,order_received,2026-07-05,Sales,Synthetic intake
+EVT-0206,NS-ORD-1092,order_received,2026-08-14,Sales,Synthetic intake
+EVT-0207,NS-ORD-1092,validation_error,2026-08-14,Sales,Invalid quantity corrected
+EVT-0208,NS-ORD-1092,manual_touch,2026-08-14,Sales,Rekey corrected data
+EVT-0209,NS-ORD-1092,manual_touch,2026-08-14,Customer Service,Chase status update
+EVT-0210,NS-ORD-1093,order_received,2026-09-26,Sales,Synthetic intake
+EVT-0211,NS-ORD-1093,manual_touch,2026-09-26,Customer Service,Chase status update
+EVT-0212,NS-ORD-1093,manual_touch,2026-09-26,Finance,Request missing handoff information
+EVT-0213,NS-ORD-1094,order_received,2026-07-14,Sales,Synthetic intake
+EVT-0214,NS-ORD-1094,manual_touch,2026-07-14,Finance,Request missing handoff information
+EVT-0215,NS-ORD-1095,order_received,2026-10-10,Sales,Synthetic intake
+EVT-0216,NS-ORD-1095,manual_touch,2026-10-10,Customer Service,Chase status update
+EVT-0217,NS-ORD-1096,order_received,2026-09-03,Sales,Synthetic intake
+EVT-0218,NS-ORD-1096,manual_touch,2026-09-03,Customer Service,Chase status update
+EVT-0219,NS-ORD-1097,order_received,2026-08-18,Sales,Synthetic intake
+EVT-0220,NS-ORD-1097,validation_error,2026-08-18,Sales,Missing ship-to corrected
+EVT-0221,NS-ORD-1097,manual_touch,2026-08-18,Sales,Rekey corrected data
+EVT-0222,NS-ORD-1098,order_received,2026-08-31,Sales,Synthetic intake
+EVT-0223,NS-ORD-1098,manual_touch,2026-08-31,Customer Service,Chase status update
+EVT-0224,NS-ORD-1099,order_received,2026-10-03,Sales,Synthetic intake
+EVT-0225,NS-ORD-1099,validation_error,2026-10-03,Sales,Invalid quantity corrected
+EVT-0226,NS-ORD-1099,manual_touch,2026-10-03,Sales,Rekey corrected data
+EVT-0227,NS-ORD-1099,manual_touch,2026-10-03,Customer Service,Chase status update
+EVT-0228,NS-ORD-1099,manual_touch,2026-10-03,Finance,Request missing handoff information
+EVT-0229,NS-ORD-1100,order_received,2026-08-04,Sales,Synthetic intake
+EVT-0230,NS-ORD-1100,manual_touch,2026-08-04,Finance,Request missing handoff information
+EVT-0231,NS-ORD-1101,order_received,2026-09-15,Sales,Synthetic intake
+EVT-0232,NS-ORD-1101,manual_touch,2026-09-15,Customer Service,Chase status update
+EVT-0233,NS-ORD-1102,order_received,2026-07-17,Sales,Synthetic intake
+EVT-0234,NS-ORD-1102,manual_touch,2026-07-17,Customer Service,Chase status update
+EVT-0235,NS-ORD-1103,order_received,2026-09-22,Sales,Synthetic intake
+EVT-0236,NS-ORD-1103,cancelled,2026-09-22,Sales,Cancelled before dispatch
+EVT-0237,NS-ORD-1104,order_received,2026-07-10,Sales,Synthetic intake
+EVT-0238,NS-ORD-1104,validation_error,2026-07-10,Sales,Missing ship-to corrected
+EVT-0239,NS-ORD-1104,manual_touch,2026-07-10,Sales,Rekey corrected data
+EVT-0240,NS-ORD-1104,manual_touch,2026-07-10,Customer Service,Chase status update
+EVT-0241,NS-ORD-1105,order_received,2026-08-06,Sales,Synthetic intake
+EVT-0242,NS-ORD-1105,manual_touch,2026-08-06,Customer Service,Chase status update
+EVT-0243,NS-ORD-1106,order_received,2026-10-03,Sales,Synthetic intake
+EVT-0244,NS-ORD-1106,validation_error,2026-10-03,Sales,Missing ship-to corrected
+EVT-0245,NS-ORD-1106,manual_touch,2026-10-03,Sales,Rekey corrected data
+EVT-0246,NS-ORD-1106,manual_touch,2026-10-03,Finance,Request missing handoff information
+EVT-0247,NS-ORD-1107,order_received,2026-09-12,Sales,Synthetic intake
+EVT-0248,NS-ORD-1107,manual_touch,2026-09-12,Customer Service,Chase status update
+EVT-0249,NS-ORD-1108,order_received,2026-09-27,Sales,Synthetic intake
+EVT-0250,NS-ORD-1108,manual_touch,2026-09-27,Customer Service,Chase status update
+EVT-0251,NS-ORD-1109,order_received,2026-08-21,Sales,Synthetic intake
+EVT-0252,NS-ORD-1110,order_received,2026-08-01,Sales,Synthetic intake
+EVT-0253,NS-ORD-1110,manual_touch,2026-08-01,Customer Service,Chase status update
+EVT-0254,NS-ORD-1111,order_received,2026-07-18,Sales,Synthetic intake
+EVT-0255,NS-ORD-1111,manual_touch,2026-07-18,Customer Service,Chase status update
+EVT-0256,NS-ORD-1112,order_received,2026-08-29,Sales,Synthetic intake
+EVT-0257,NS-ORD-1113,order_received,2026-07-06,Sales,Synthetic intake
+EVT-0258,NS-ORD-1113,validation_error,2026-07-06,Sales,Invalid quantity corrected
+EVT-0259,NS-ORD-1113,manual_touch,2026-07-06,Sales,Rekey corrected data
+EVT-0260,NS-ORD-1113,manual_touch,2026-07-06,Customer Service,Chase status update
+EVT-0261,NS-ORD-1113,manual_touch,2026-07-06,Finance,Request missing handoff information
+EVT-0262,NS-ORD-1114,order_received,2026-10-02,Sales,Synthetic intake
+EVT-0263,NS-ORD-1114,manual_touch,2026-10-02,Customer Service,Chase status update
+EVT-0264,NS-ORD-1115,order_received,2026-09-20,Sales,Synthetic intake
+EVT-0265,NS-ORD-1116,order_received,2026-09-10,Sales,Synthetic intake
+EVT-0266,NS-ORD-1116,manual_touch,2026-09-10,Customer Service,Chase status update
+EVT-0267,NS-ORD-1117,order_received,2026-09-21,Sales,Synthetic intake
+EVT-0268,NS-ORD-1117,manual_touch,2026-09-21,Customer Service,Chase status update
+EVT-0269,NS-ORD-1118,order_received,2026-09-02,Sales,Synthetic intake
+EVT-0270,NS-ORD-1119,order_received,2026-08-13,Sales,Synthetic intake
+EVT-0271,NS-ORD-1119,manual_touch,2026-08-13,Customer Service,Chase status update
+EVT-0272,NS-ORD-1120,order_received,2026-08-07,Sales,Synthetic intake
+EVT-0273,NS-ORD-1120,validation_error,2026-08-07,Sales,Missing ship-to corrected
+EVT-0274,NS-ORD-1120,manual_touch,2026-08-07,Sales,Rekey corrected data
+EVT-0275,NS-ORD-1120,manual_touch,2026-08-07,Customer Service,Chase status update
+EVT-0276,NS-ORD-1120,cancelled,2026-08-07,Sales,Cancelled before dispatch
+EVT-0277,NS-ORD-1121,order_received,2026-10-08,Sales,Synthetic intake
+EVT-0278,NS-ORD-1121,validation_error,2026-10-08,Sales,Missing ship-to corrected
+EVT-0279,NS-ORD-1121,manual_touch,2026-10-08,Sales,Rekey corrected data
+EVT-0280,NS-ORD-1122,order_received,2026-08-12,Sales,Synthetic intake
+EVT-0281,NS-ORD-1122,manual_touch,2026-08-12,Customer Service,Chase status update
+EVT-0282,NS-ORD-1123,order_received,2026-08-05,Sales,Synthetic intake
+EVT-0283,NS-ORD-1123,manual_touch,2026-08-05,Customer Service,Chase status update
+EVT-0284,NS-ORD-1124,order_received,2026-10-06,Sales,Synthetic intake
+EVT-0285,NS-ORD-1125,order_received,2026-08-07,Sales,Synthetic intake
+EVT-0286,NS-ORD-1125,manual_touch,2026-08-07,Customer Service,Chase status update
+EVT-0287,NS-ORD-1126,order_received,2026-08-08,Sales,Synthetic intake
+EVT-0288,NS-ORD-1126,manual_touch,2026-08-08,Customer Service,Chase status update
+EVT-0289,NS-ORD-1127,order_received,2026-07-15,Sales,Synthetic intake
+EVT-0290,NS-ORD-1127,validation_error,2026-07-15,Sales,Missing ship-to corrected
+EVT-0291,NS-ORD-1127,manual_touch,2026-07-15,Sales,Rekey corrected data
+EVT-0292,NS-ORD-1128,order_received,2026-08-22,Sales,Synthetic intake
+EVT-0293,NS-ORD-1128,manual_touch,2026-08-22,Customer Service,Chase status update
+EVT-0294,NS-ORD-1129,order_received,2026-10-08,Sales,Synthetic intake
+EVT-0295,NS-ORD-1129,manual_touch,2026-10-08,Customer Service,Chase status update
+EVT-0296,NS-ORD-1130,order_received,2026-09-08,Sales,Synthetic intake
+EVT-0297,NS-ORD-1130,validation_error,2026-09-08,Sales,Invalid quantity corrected
+EVT-0298,NS-ORD-1130,manual_touch,2026-09-08,Sales,Rekey corrected data
+EVT-0299,NS-ORD-1131,order_received,2026-07-04,Sales,Synthetic intake
+EVT-0300,NS-ORD-1131,manual_touch,2026-07-04,Customer Service,Chase status update
+EVT-0301,NS-ORD-1132,order_received,2026-08-18,Sales,Synthetic intake
+EVT-0302,NS-ORD-1132,manual_touch,2026-08-18,Customer Service,Chase status update
+EVT-0303,NS-ORD-1133,order_received,2026-08-01,Sales,Synthetic intake
+EVT-0304,NS-ORD-1134,order_received,2026-09-05,Sales,Synthetic intake
+EVT-0305,NS-ORD-1134,validation_error,2026-09-05,Sales,Invalid quantity corrected
+EVT-0306,NS-ORD-1134,manual_touch,2026-09-05,Sales,Rekey corrected data
+EVT-0307,NS-ORD-1134,manual_touch,2026-09-05,Customer Service,Chase status update
+EVT-0308,NS-ORD-1135,order_received,2026-07-08,Sales,Synthetic intake
+EVT-0309,NS-ORD-1135,manual_touch,2026-07-08,Customer Service,Chase status update
+EVT-0310,NS-ORD-1136,order_received,2026-09-20,Sales,Synthetic intake
+EVT-0311,NS-ORD-1137,order_received,2026-08-15,Sales,Synthetic intake
+EVT-0312,NS-ORD-1137,manual_touch,2026-08-15,Customer Service,Chase status update
+EVT-0313,NS-ORD-1137,cancelled,2026-08-15,Sales,Cancelled before dispatch
+EVT-0314,NS-ORD-1138,order_received,2026-09-28,Sales,Synthetic intake
+EVT-0315,NS-ORD-1138,manual_touch,2026-09-28,Customer Service,Chase status update
+EVT-0316,NS-ORD-1139,order_received,2026-07-06,Sales,Synthetic intake
+EVT-0317,NS-ORD-1140,order_received,2026-10-08,Sales,Synthetic intake
+EVT-0318,NS-ORD-1140,manual_touch,2026-10-08,Customer Service,Chase status update
+EVT-0319,NS-ORD-1141,order_received,2026-09-15,Sales,Synthetic intake
+EVT-0320,NS-ORD-1141,validation_error,2026-09-15,Sales,Incorrect price corrected
+EVT-0321,NS-ORD-1141,manual_touch,2026-09-15,Sales,Rekey corrected data
+EVT-0322,NS-ORD-1141,manual_touch,2026-09-15,Customer Service,Chase status update
+EVT-0323,NS-ORD-1142,order_received,2026-08-09,Sales,Synthetic intake
+EVT-0324,NS-ORD-1143,order_received,2026-10-04,Sales,Synthetic intake
+EVT-0325,NS-ORD-1143,manual_touch,2026-10-04,Customer Service,Chase status update
+EVT-0326,NS-ORD-1144,order_received,2026-09-10,Sales,Synthetic intake
+EVT-0327,NS-ORD-1144,manual_touch,2026-09-10,Customer Service,Chase status update
+EVT-0328,NS-ORD-1145,order_received,2026-07-20,Sales,Synthetic intake
+EVT-0329,NS-ORD-1146,order_received,2026-07-18,Sales,Synthetic intake
+EVT-0330,NS-ORD-1146,validation_error,2026-07-18,Sales,Invalid quantity corrected
+EVT-0331,NS-ORD-1146,manual_touch,2026-07-18,Sales,Rekey corrected data
+EVT-0332,NS-ORD-1146,manual_touch,2026-07-18,Customer Service,Chase status update
+EVT-0333,NS-ORD-1147,order_received,2026-09-06,Sales,Synthetic intake
+EVT-0334,NS-ORD-1147,manual_touch,2026-09-06,Customer Service,Chase status update
+EVT-0335,NS-ORD-1147,manual_touch,2026-09-06,Finance,Request missing handoff information
+EVT-0336,NS-ORD-1148,order_received,2026-09-01,Sales,Synthetic intake
+EVT-0337,NS-ORD-1148,validation_error,2026-09-01,Sales,Incorrect price corrected
+EVT-0338,NS-ORD-1148,manual_touch,2026-09-01,Sales,Rekey corrected data
+EVT-0339,NS-ORD-1149,order_received,2026-09-19,Sales,Synthetic intake
+EVT-0340,NS-ORD-1149,manual_touch,2026-09-19,Customer Service,Chase status update
+EVT-0341,NS-ORD-1150,order_received,2026-07-07,Sales,Synthetic intake
+EVT-0342,NS-ORD-1150,manual_touch,2026-07-07,Customer Service,Chase status update
+EVT-0343,NS-ORD-1151,order_received,2026-07-15,Sales,Synthetic intake
+EVT-0344,NS-ORD-1152,order_received,2026-07-14,Sales,Synthetic intake
+EVT-0345,NS-ORD-1152,manual_touch,2026-07-14,Customer Service,Chase status update
+EVT-0346,NS-ORD-1153,order_received,2026-07-27,Sales,Synthetic intake
+EVT-0347,NS-ORD-1153,manual_touch,2026-07-27,Customer Service,Chase status update
+EVT-0348,NS-ORD-1154,order_received,2026-07-21,Sales,Synthetic intake
+EVT-0349,NS-ORD-1154,cancelled,2026-07-21,Sales,Cancelled before dispatch
+EVT-0350,NS-ORD-1155,order_received,2026-08-11,Sales,Synthetic intake
+EVT-0351,NS-ORD-1155,validation_error,2026-08-11,Sales,Missing ship-to corrected
+EVT-0352,NS-ORD-1155,manual_touch,2026-08-11,Sales,Rekey corrected data
+EVT-0353,NS-ORD-1155,manual_touch,2026-08-11,Customer Service,Chase status update
+EVT-0354,NS-ORD-1155,manual_touch,2026-08-11,Finance,Request missing handoff information
+EVT-0355,NS-ORD-1156,order_received,2026-09-26,Sales,Synthetic intake
+EVT-0356,NS-ORD-1156,manual_touch,2026-09-26,Customer Service,Chase status update
+EVT-0357,NS-ORD-1157,order_received,2026-10-09,Sales,Synthetic intake
+EVT-0358,NS-ORD-1158,order_received,2026-09-30,Sales,Synthetic intake
+EVT-0359,NS-ORD-1158,manual_touch,2026-09-30,Customer Service,Chase status update
+EVT-0360,NS-ORD-1159,order_received,2026-07-10,Sales,Synthetic intake
+EVT-0361,NS-ORD-1159,manual_touch,2026-07-10,Customer Service,Chase status update
+EVT-0362,NS-ORD-1160,order_received,2026-08-28,Sales,Synthetic intake
+EVT-0363,NS-ORD-1161,order_received,2026-08-16,Sales,Synthetic intake
+EVT-0364,NS-ORD-1161,manual_touch,2026-08-16,Customer Service,Chase status update
+EVT-0365,NS-ORD-1161,manual_touch,2026-08-16,Finance,Request missing handoff information
+EVT-0366,NS-ORD-1162,order_received,2026-07-07,Sales,Synthetic intake
+EVT-0367,NS-ORD-1162,validation_error,2026-07-07,Sales,Invalid quantity corrected
+EVT-0368,NS-ORD-1162,manual_touch,2026-07-07,Sales,Rekey corrected data
+EVT-0369,NS-ORD-1162,manual_touch,2026-07-07,Customer Service,Chase status update
+EVT-0370,NS-ORD-1163,order_received,2026-07-08,Sales,Synthetic intake
+EVT-0371,NS-ORD-1164,order_received,2026-08-29,Sales,Synthetic intake
+EVT-0372,NS-ORD-1164,manual_touch,2026-08-29,Customer Service,Chase status update
+EVT-0373,NS-ORD-1165,order_received,2026-08-19,Sales,Synthetic intake
+EVT-0374,NS-ORD-1165,validation_error,2026-08-19,Sales,Missing ship-to corrected
+EVT-0375,NS-ORD-1165,manual_touch,2026-08-19,Sales,Rekey corrected data
+EVT-0376,NS-ORD-1165,manual_touch,2026-08-19,Customer Service,Chase status update
+EVT-0377,NS-ORD-1166,order_received,2026-08-19,Sales,Synthetic intake
+EVT-0378,NS-ORD-1167,order_received,2026-09-15,Sales,Synthetic intake
+EVT-0379,NS-ORD-1167,manual_touch,2026-09-15,Customer Service,Chase status update
+EVT-0380,NS-ORD-1168,order_received,2026-09-30,Sales,Synthetic intake
+EVT-0381,NS-ORD-1168,manual_touch,2026-09-30,Customer Service,Chase status update
+EVT-0382,NS-ORD-1169,order_received,2026-09-11,Sales,Synthetic intake
+EVT-0383,NS-ORD-1169,validation_error,2026-09-11,Sales,Missing ship-to corrected
+EVT-0384,NS-ORD-1169,manual_touch,2026-09-11,Sales,Rekey corrected data
+EVT-0385,NS-ORD-1169,manual_touch,2026-09-11,Finance,Request missing handoff information
+EVT-0386,NS-ORD-1170,order_received,2026-10-02,Sales,Synthetic intake
+EVT-0387,NS-ORD-1170,manual_touch,2026-10-02,Customer Service,Chase status update
+EVT-0388,NS-ORD-1170,manual_touch,2026-10-02,Finance,Request missing handoff information
+EVT-0389,NS-ORD-1171,order_received,2026-09-12,Sales,Synthetic intake
+EVT-0390,NS-ORD-1171,manual_touch,2026-09-12,Customer Service,Chase status update
+EVT-0391,NS-ORD-1171,cancelled,2026-09-12,Sales,Cancelled before dispatch
+EVT-0392,NS-ORD-1172,order_received,2026-07-28,Sales,Synthetic intake
+EVT-0393,NS-ORD-1173,order_received,2026-07-07,Sales,Synthetic intake
+EVT-0394,NS-ORD-1173,manual_touch,2026-07-07,Customer Service,Chase status update
+EVT-0395,NS-ORD-1173,manual_touch,2026-07-07,Finance,Request missing handoff information
+EVT-0396,NS-ORD-1174,order_received,2026-08-25,Sales,Synthetic intake
+EVT-0397,NS-ORD-1174,manual_touch,2026-08-25,Customer Service,Chase status update
+EVT-0398,NS-ORD-1175,order_received,2026-07-15,Sales,Synthetic intake
+EVT-0399,NS-ORD-1176,order_received,2026-09-16,Sales,Synthetic intake
+EVT-0400,NS-ORD-1176,validation_error,2026-09-16,Sales,Incorrect price corrected
+EVT-0401,NS-ORD-1176,manual_touch,2026-09-16,Sales,Rekey corrected data
+EVT-0402,NS-ORD-1176,manual_touch,2026-09-16,Customer Service,Chase status update
+EVT-0403,NS-ORD-1177,order_received,2026-10-04,Sales,Synthetic intake
+EVT-0404,NS-ORD-1177,manual_touch,2026-10-04,Customer Service,Chase status update
+EVT-0405,NS-ORD-1177,manual_touch,2026-10-04,Finance,Request missing handoff information
+EVT-0406,NS-ORD-1178,order_received,2026-07-22,Sales,Synthetic intake
+EVT-0407,NS-ORD-1179,order_received,2026-07-31,Sales,Synthetic intake
+EVT-0408,NS-ORD-1179,manual_touch,2026-07-31,Customer Service,Chase status update
+EVT-0409,NS-ORD-1180,order_received,2026-08-11,Sales,Synthetic intake
+EVT-0410,NS-ORD-1180,manual_touch,2026-08-11,Customer Service,Chase status update
+EVT-0411,NS-ORD-1180,manual_touch,2026-08-11,Finance,Request missing handoff information
+EVT-0412,NS-ORD-1181,order_received,2026-08-02,Sales,Synthetic intake
+EVT-0413,NS-ORD-1182,order_received,2026-07-12,Sales,Synthetic intake
+EVT-0414,NS-ORD-1182,manual_touch,2026-07-12,Customer Service,Chase status update
+EVT-0415,NS-ORD-1183,order_received,2026-08-03,Sales,Synthetic intake
+EVT-0416,NS-ORD-1183,validation_error,2026-08-03,Sales,Invalid quantity corrected
+EVT-0417,NS-ORD-1183,manual_touch,2026-08-03,Sales,Rekey corrected data
+EVT-0418,NS-ORD-1183,manual_touch,2026-08-03,Customer Service,Chase status update
+EVT-0419,NS-ORD-1183,manual_touch,2026-08-03,Finance,Request missing handoff information
+EVT-0420,NS-ORD-1184,order_received,2026-09-01,Sales,Synthetic intake
+EVT-0421,NS-ORD-1184,manual_touch,2026-09-01,Finance,Request missing handoff information
+EVT-0422,NS-ORD-1185,order_received,2026-07-18,Sales,Synthetic intake
+EVT-0423,NS-ORD-1185,manual_touch,2026-07-18,Customer Service,Chase status update
+EVT-0424,NS-ORD-1186,order_received,2026-08-25,Sales,Synthetic intake
+EVT-0425,NS-ORD-1186,validation_error,2026-08-25,Sales,Missing ship-to corrected
+EVT-0426,NS-ORD-1186,manual_touch,2026-08-25,Sales,Rekey corrected data
+EVT-0427,NS-ORD-1186,manual_touch,2026-08-25,Customer Service,Chase status update
+EVT-0428,NS-ORD-1187,order_received,2026-07-10,Sales,Synthetic intake
+EVT-0429,NS-ORD-1188,order_received,2026-09-02,Sales,Synthetic intake
+EVT-0430,NS-ORD-1188,manual_touch,2026-09-02,Customer Service,Chase status update
+EVT-0431,NS-ORD-1188,cancelled,2026-09-02,Sales,Cancelled before dispatch
+EVT-0432,NS-ORD-1189,order_received,2026-07-12,Sales,Synthetic intake
+EVT-0433,NS-ORD-1189,manual_touch,2026-07-12,Customer Service,Chase status update
+EVT-0434,NS-ORD-1190,order_received,2026-07-12,Sales,Synthetic intake
+EVT-0435,NS-ORD-1190,validation_error,2026-07-12,Sales,Missing ship-to corrected
+EVT-0436,NS-ORD-1190,manual_touch,2026-07-12,Sales,Rekey corrected data
+EVT-0437,NS-ORD-1191,order_received,2026-07-22,Sales,Synthetic intake
+EVT-0438,NS-ORD-1191,manual_touch,2026-07-22,Customer Service,Chase status update
+EVT-0439,NS-ORD-1192,order_received,2026-09-27,Sales,Synthetic intake
+EVT-0440,NS-ORD-1192,manual_touch,2026-09-27,Customer Service,Chase status update
+EVT-0441,NS-ORD-1193,order_received,2026-08-14,Sales,Synthetic intake
+EVT-0442,NS-ORD-1194,order_received,2026-09-05,Sales,Synthetic intake
+EVT-0443,NS-ORD-1194,manual_touch,2026-09-05,Customer Service,Chase status update
+EVT-0444,NS-ORD-1195,order_received,2026-08-28,Sales,Synthetic intake
+EVT-0445,NS-ORD-1195,validation_error,2026-08-28,Sales,Incorrect price corrected
+EVT-0446,NS-ORD-1195,manual_touch,2026-08-28,Sales,Rekey corrected data
+EVT-0447,NS-ORD-1195,manual_touch,2026-08-28,Customer Service,Chase status update
+EVT-0448,NS-ORD-1196,order_received,2026-09-10,Sales,Synthetic intake
+EVT-0449,NS-ORD-1197,order_received,2026-08-23,Sales,Synthetic intake
+EVT-0450,NS-ORD-1197,validation_error,2026-08-23,Sales,Missing ship-to corrected
+EVT-0451,NS-ORD-1197,manual_touch,2026-08-23,Sales,Rekey corrected data
+EVT-0452,NS-ORD-1197,manual_touch,2026-08-23,Customer Service,Chase status update
+EVT-0453,NS-ORD-1198,order_received,2026-09-16,Sales,Synthetic intake
+EVT-0454,NS-ORD-1198,manual_touch,2026-09-16,Customer Service,Chase status update
+EVT-0455,NS-ORD-1199,order_received,2026-08-19,Sales,Synthetic intake
+EVT-0456,NS-ORD-1200,order_received,2026-09-09,Sales,Synthetic intake
+EVT-0457,NS-ORD-1200,manual_touch,2026-09-09,Customer Service,Chase status update
+EVT-0458,NS-ORD-1201,order_received,2026-10-02,Sales,Synthetic intake
+EVT-0459,NS-ORD-1201,manual_touch,2026-10-02,Customer Service,Chase status update
+EVT-0460,NS-ORD-1202,order_received,2026-08-15,Sales,Synthetic intake
+EVT-0461,NS-ORD-1203,order_received,2026-07-15,Sales,Synthetic intake
+EVT-0462,NS-ORD-1203,manual_touch,2026-07-15,Customer Service,Chase status update
+EVT-0463,NS-ORD-1204,order_received,2026-07-15,Sales,Synthetic intake
+EVT-0464,NS-ORD-1204,validation_error,2026-07-15,Sales,Invalid quantity corrected
+EVT-0465,NS-ORD-1204,manual_touch,2026-07-15,Sales,Rekey corrected data
+EVT-0466,NS-ORD-1204,manual_touch,2026-07-15,Customer Service,Chase status update
+EVT-0467,NS-ORD-1205,order_received,2026-09-29,Sales,Synthetic intake
+EVT-0468,NS-ORD-1205,cancelled,2026-09-29,Sales,Cancelled before dispatch
+EVT-0469,NS-ORD-1206,order_received,2026-07-04,Sales,Synthetic intake
+EVT-0470,NS-ORD-1206,validation_error,2026-07-04,Sales,Invalid quantity corrected
+EVT-0471,NS-ORD-1206,manual_touch,2026-07-04,Sales,Rekey corrected data
+EVT-0472,NS-ORD-1206,manual_touch,2026-07-04,Customer Service,Chase status update
+EVT-0473,NS-ORD-1207,order_received,2026-07-20,Sales,Synthetic intake
+EVT-0474,NS-ORD-1207,manual_touch,2026-07-20,Customer Service,Chase status update
+EVT-0475,NS-ORD-1208,order_received,2026-09-21,Sales,Synthetic intake
+EVT-0476,NS-ORD-1209,order_received,2026-09-26,Sales,Synthetic intake
+EVT-0477,NS-ORD-1209,manual_touch,2026-09-26,Customer Service,Chase status update
+EVT-0478,NS-ORD-1209,manual_touch,2026-09-26,Finance,Request missing handoff information
+EVT-0479,NS-ORD-1210,order_received,2026-07-19,Sales,Synthetic intake
+EVT-0480,NS-ORD-1210,manual_touch,2026-07-19,Customer Service,Chase status update
+EVT-0481,NS-ORD-1210,manual_touch,2026-07-19,Finance,Request missing handoff information
+EVT-0482,NS-ORD-1211,order_received,2026-10-01,Sales,Synthetic intake
+EVT-0483,NS-ORD-1211,validation_error,2026-10-01,Sales,Incorrect price corrected
+EVT-0484,NS-ORD-1211,manual_touch,2026-10-01,Sales,Rekey corrected data
+EVT-0485,NS-ORD-1212,order_received,2026-09-23,Sales,Synthetic intake
+EVT-0486,NS-ORD-1212,manual_touch,2026-09-23,Customer Service,Chase status update
+EVT-0487,NS-ORD-1213,order_received,2026-07-14,Sales,Synthetic intake
+EVT-0488,NS-ORD-1213,manual_touch,2026-07-14,Customer Service,Chase status update
+EVT-0489,NS-ORD-1214,order_received,2026-09-22,Sales,Synthetic intake
+EVT-0490,NS-ORD-1215,order_received,2026-07-13,Sales,Synthetic intake
+EVT-0491,NS-ORD-1215,manual_touch,2026-07-13,Customer Service,Chase status update
+EVT-0492,NS-ORD-1216,order_received,2026-08-15,Sales,Synthetic intake
+EVT-0493,NS-ORD-1216,manual_touch,2026-08-15,Customer Service,Chase status update
+EVT-0494,NS-ORD-1217,order_received,2026-08-26,Sales,Synthetic intake
+EVT-0495,NS-ORD-1218,order_received,2026-08-02,Sales,Synthetic intake
+EVT-0496,NS-ORD-1218,validation_error,2026-08-02,Sales,Incorrect price corrected
+EVT-0497,NS-ORD-1218,manual_touch,2026-08-02,Sales,Rekey corrected data
+EVT-0498,NS-ORD-1218,manual_touch,2026-08-02,Customer Service,Chase status update
+EVT-0499,NS-ORD-1219,order_received,2026-07-07,Sales,Synthetic intake
+EVT-0500,NS-ORD-1219,manual_touch,2026-07-07,Customer Service,Chase status update
+EVT-0501,NS-ORD-1220,order_received,2026-07-05,Sales,Synthetic intake
+EVT-0502,NS-ORD-1221,order_received,2026-10-08,Sales,Synthetic intake
+EVT-0503,NS-ORD-1221,manual_touch,2026-10-08,Customer Service,Chase status update
+EVT-0504,NS-ORD-1222,order_received,2026-08-20,Sales,Synthetic intake
+EVT-0505,NS-ORD-1222,manual_touch,2026-08-20,Customer Service,Chase status update
+EVT-0506,NS-ORD-1222,cancelled,2026-08-20,Sales,Cancelled before dispatch
+EVT-0507,NS-ORD-1223,order_received,2026-07-17,Sales,Synthetic intake
+EVT-0508,NS-ORD-1224,order_received,2026-08-12,Sales,Synthetic intake
+EVT-0509,NS-ORD-1224,manual_touch,2026-08-12,Customer Service,Chase status update
+EVT-0510,NS-ORD-1225,order_received,2026-09-29,Sales,Synthetic intake
+EVT-0511,NS-ORD-1225,validation_error,2026-09-29,Sales,Invalid quantity corrected
+EVT-0512,NS-ORD-1225,manual_touch,2026-09-29,Sales,Rekey corrected data
+EVT-0513,NS-ORD-1225,manual_touch,2026-09-29,Customer Service,Chase status update
+EVT-0514,NS-ORD-1226,order_received,2026-09-11,Sales,Synthetic intake
+EVT-0515,NS-ORD-1227,order_received,2026-07-12,Sales,Synthetic intake
+EVT-0516,NS-ORD-1227,manual_touch,2026-07-12,Customer Service,Chase status update
+EVT-0517,NS-ORD-1228,order_received,2026-09-19,Sales,Synthetic intake
+EVT-0518,NS-ORD-1228,manual_touch,2026-09-19,Customer Service,Chase status update
+EVT-0519,NS-ORD-1229,order_received,2026-09-12,Sales,Synthetic intake
+EVT-0520,NS-ORD-1230,order_received,2026-08-14,Sales,Synthetic intake
+EVT-0521,NS-ORD-1230,manual_touch,2026-08-14,Customer Service,Chase status update
+EVT-0522,NS-ORD-1231,order_received,2026-10-08,Sales,Synthetic intake
+EVT-0523,NS-ORD-1231,manual_touch,2026-10-08,Customer Service,Chase status update
+EVT-0524,NS-ORD-1231,manual_touch,2026-10-08,Finance,Request missing handoff information
+EVT-0525,NS-ORD-1232,order_received,2026-07-11,Sales,Synthetic intake
+EVT-0526,NS-ORD-1232,validation_error,2026-07-11,Sales,Incorrect price corrected
+EVT-0527,NS-ORD-1232,manual_touch,2026-07-11,Sales,Rekey corrected data
+EVT-0528,NS-ORD-1233,order_received,2026-09-27,Sales,Synthetic intake
+EVT-0529,NS-ORD-1233,manual_touch,2026-09-27,Customer Service,Chase status update
+EVT-0530,NS-ORD-1234,order_received,2026-08-30,Sales,Synthetic intake
+EVT-0531,NS-ORD-1234,manual_touch,2026-08-30,Customer Service,Chase status update
+EVT-0532,NS-ORD-1234,manual_touch,2026-08-30,Finance,Request missing handoff information
+EVT-0533,NS-ORD-1235,order_received,2026-09-17,Sales,Synthetic intake
+EVT-0534,NS-ORD-1236,order_received,2026-08-28,Sales,Synthetic intake
+EVT-0535,NS-ORD-1236,validation_error,2026-08-28,Sales,Invalid quantity corrected
+EVT-0536,NS-ORD-1236,manual_touch,2026-08-28,Sales,Rekey corrected data
+EVT-0537,NS-ORD-1236,manual_touch,2026-08-28,Customer Service,Chase status update
+EVT-0538,NS-ORD-1237,order_received,2026-09-10,Sales,Synthetic intake
+EVT-0539,NS-ORD-1237,manual_touch,2026-09-10,Customer Service,Chase status update
+EVT-0540,NS-ORD-1238,order_received,2026-09-17,Sales,Synthetic intake
+EVT-0541,NS-ORD-1239,order_received,2026-09-23,Sales,Synthetic intake
+EVT-0542,NS-ORD-1239,validation_error,2026-09-23,Sales,Incorrect price corrected
+EVT-0543,NS-ORD-1239,manual_touch,2026-09-23,Sales,Rekey corrected data
+EVT-0544,NS-ORD-1239,manual_touch,2026-09-23,Customer Service,Chase status update
+EVT-0545,NS-ORD-1239,cancelled,2026-09-23,Sales,Cancelled before dispatch
+EVT-0546,NS-ORD-1240,order_received,2026-08-02,Sales,Synthetic intake
+EVT-0547,NS-ORD-1240,manual_touch,2026-08-02,Customer Service,Chase status update
+EVT-0548,NS-ORD-1241,order_received,2026-08-11,Sales,Synthetic intake
+EVT-0549,NS-ORD-1241,manual_touch,2026-08-11,Finance,Request missing handoff information
+EVT-0550,NS-ORD-1242,order_received,2026-08-19,Sales,Synthetic intake
+EVT-0551,NS-ORD-1242,validation_error,2026-08-19,Sales,Missing ship-to corrected
+EVT-0552,NS-ORD-1242,manual_touch,2026-08-19,Sales,Rekey corrected data
+EVT-0553,NS-ORD-1242,manual_touch,2026-08-19,Customer Service,Chase status update
+EVT-0554,NS-ORD-1243,order_received,2026-07-08,Sales,Synthetic intake
+EVT-0555,NS-ORD-1243,manual_touch,2026-07-08,Customer Service,Chase status update
+EVT-0556,NS-ORD-1244,order_received,2026-07-10,Sales,Synthetic intake
+EVT-0557,NS-ORD-1245,order_received,2026-09-06,Sales,Synthetic intake
+EVT-0558,NS-ORD-1245,manual_touch,2026-09-06,Customer Service,Chase status update
+EVT-0559,NS-ORD-1246,order_received,2026-10-09,Sales,Synthetic intake
+EVT-0560,NS-ORD-1246,validation_error,2026-10-09,Sales,Missing ship-to corrected
+EVT-0561,NS-ORD-1246,manual_touch,2026-10-09,Sales,Rekey corrected data
+EVT-0562,NS-ORD-1246,manual_touch,2026-10-09,Customer Service,Chase status update
+EVT-0563,NS-ORD-1247,order_received,2026-09-12,Sales,Synthetic intake
+EVT-0564,NS-ORD-1248,order_received,2026-08-08,Sales,Synthetic intake
+EVT-0565,NS-ORD-1248,validation_error,2026-08-08,Sales,Incorrect price corrected
+EVT-0566,NS-ORD-1248,manual_touch,2026-08-08,Sales,Rekey corrected data
+EVT-0567,NS-ORD-1248,manual_touch,2026-08-08,Customer Service,Chase status update
+EVT-0568,NS-ORD-1249,order_received,2026-07-01,Sales,Synthetic intake
+EVT-0569,NS-ORD-1249,manual_touch,2026-07-01,Customer Service,Chase status update
+EVT-0570,NS-ORD-1249,manual_touch,2026-07-01,Finance,Request missing handoff information
+EVT-0571,NS-ORD-1250,order_received,2026-07-08,Sales,Synthetic intake
+EVT-0572,NS-ORD-1251,order_received,2026-08-02,Sales,Synthetic intake
+EVT-0573,NS-ORD-1251,manual_touch,2026-08-02,Customer Service,Chase status update
+EVT-0574,NS-ORD-1252,order_received,2026-07-31,Sales,Synthetic intake
+EVT-0575,NS-ORD-1252,manual_touch,2026-07-31,Customer Service,Chase status update
+EVT-0576,NS-ORD-1252,manual_touch,2026-07-31,Finance,Request missing handoff information
+EVT-0577,NS-ORD-1253,order_received,2026-10-02,Sales,Synthetic intake
+EVT-0578,NS-ORD-1253,validation_error,2026-10-02,Sales,Invalid quantity corrected
+EVT-0579,NS-ORD-1253,manual_touch,2026-10-02,Sales,Rekey corrected data
+EVT-0580,NS-ORD-1254,order_received,2026-07-25,Sales,Synthetic intake
+EVT-0581,NS-ORD-1254,manual_touch,2026-07-25,Customer Service,Chase status update
+EVT-0582,NS-ORD-1255,order_received,2026-07-19,Sales,Synthetic intake
+EVT-0583,NS-ORD-1255,manual_touch,2026-07-19,Customer Service,Chase status update
+EVT-0584,NS-ORD-1256,order_received,2026-09-01,Sales,Synthetic intake
+EVT-0585,NS-ORD-1256,cancelled,2026-09-01,Sales,Cancelled before dispatch
+EVT-0586,NS-ORD-1257,order_received,2026-09-09,Sales,Synthetic intake
+EVT-0587,NS-ORD-1257,manual_touch,2026-09-09,Customer Service,Chase status update
+EVT-0588,NS-ORD-1258,order_received,2026-08-27,Sales,Synthetic intake
+EVT-0589,NS-ORD-1258,manual_touch,2026-08-27,Customer Service,Chase status update
+EVT-0590,NS-ORD-1259,order_received,2026-07-07,Sales,Synthetic intake
+EVT-0591,NS-ORD-1259,validation_error,2026-07-07,Sales,Incorrect price corrected
+EVT-0592,NS-ORD-1259,manual_touch,2026-07-07,Sales,Rekey corrected data
+EVT-0593,NS-ORD-1260,order_received,2026-08-05,Sales,Synthetic intake
+EVT-0594,NS-ORD-1260,validation_error,2026-08-05,Sales,Missing ship-to corrected
+EVT-0595,NS-ORD-1260,manual_touch,2026-08-05,Sales,Rekey corrected data
+EVT-0596,NS-ORD-1260,manual_touch,2026-08-05,Customer Service,Chase status update
+EVT-0597,NS-ORD-1261,order_received,2026-07-23,Sales,Synthetic intake
+EVT-0598,NS-ORD-1261,manual_touch,2026-07-23,Customer Service,Chase status update
+EVT-0599,NS-ORD-1262,order_received,2026-09-09,Sales,Synthetic intake
+EVT-0600,NS-ORD-1263,order_received,2026-07-14,Sales,Synthetic intake
+EVT-0601,NS-ORD-1263,validation_error,2026-07-14,Sales,Invalid quantity corrected
+EVT-0602,NS-ORD-1263,manual_touch,2026-07-14,Sales,Rekey corrected data
+EVT-0603,NS-ORD-1263,manual_touch,2026-07-14,Customer Service,Chase status update
+EVT-0604,NS-ORD-1264,order_received,2026-09-07,Sales,Synthetic intake
+EVT-0605,NS-ORD-1264,manual_touch,2026-09-07,Customer Service,Chase status update
+EVT-0606,NS-ORD-1265,order_received,2026-09-17,Sales,Synthetic intake
+EVT-0607,NS-ORD-1266,order_received,2026-08-14,Sales,Synthetic intake
+EVT-0608,NS-ORD-1266,manual_touch,2026-08-14,Customer Service,Chase status update
+EVT-0609,NS-ORD-1267,order_received,2026-08-01,Sales,Synthetic intake
+EVT-0610,NS-ORD-1267,validation_error,2026-08-01,Sales,Incorrect price corrected
+EVT-0611,NS-ORD-1267,manual_touch,2026-08-01,Sales,Rekey corrected data
+EVT-0612,NS-ORD-1267,manual_touch,2026-08-01,Customer Service,Chase status update
+EVT-0613,NS-ORD-1268,order_received,2026-09-17,Sales,Synthetic intake
+EVT-0614,NS-ORD-1269,order_received,2026-07-13,Sales,Synthetic intake
+EVT-0615,NS-ORD-1269,manual_touch,2026-07-13,Customer Service,Chase status update
+EVT-0616,NS-ORD-1270,order_received,2026-10-03,Sales,Synthetic intake
+EVT-0617,NS-ORD-1270,validation_error,2026-10-03,Sales,Missing ship-to corrected
+EVT-0618,NS-ORD-1270,manual_touch,2026-10-03,Sales,Rekey corrected data
+EVT-0619,NS-ORD-1270,manual_touch,2026-10-03,Customer Service,Chase status update
+EVT-0620,NS-ORD-1271,order_received,2026-08-02,Sales,Synthetic intake
+EVT-0621,NS-ORD-1271,manual_touch,2026-08-02,Finance,Request missing handoff information
+EVT-0622,NS-ORD-1272,order_received,2026-07-24,Sales,Synthetic intake
+EVT-0623,NS-ORD-1272,manual_touch,2026-07-24,Customer Service,Chase status update
+EVT-0624,NS-ORD-1273,order_received,2026-09-26,Sales,Synthetic intake
+EVT-0625,NS-ORD-1273,manual_touch,2026-09-26,Customer Service,Chase status update
+EVT-0626,NS-ORD-1273,cancelled,2026-09-26,Sales,Cancelled before dispatch
+EVT-0627,NS-ORD-1274,order_received,2026-07-05,Sales,Synthetic intake
+EVT-0628,NS-ORD-1274,validation_error,2026-07-05,Sales,Invalid quantity corrected
+EVT-0629,NS-ORD-1274,manual_touch,2026-07-05,Sales,Rekey corrected data
+EVT-0630,NS-ORD-1275,order_received,2026-07-06,Sales,Synthetic intake
+EVT-0631,NS-ORD-1275,validation_error,2026-07-06,Sales,Invalid quantity corrected
+EVT-0632,NS-ORD-1275,manual_touch,2026-07-06,Sales,Rekey corrected data
+EVT-0633,NS-ORD-1275,manual_touch,2026-07-06,Customer Service,Chase status update
+EVT-0634,NS-ORD-1276,order_received,2026-09-24,Sales,Synthetic intake
+EVT-0635,NS-ORD-1276,manual_touch,2026-09-24,Customer Service,Chase status update
+EVT-0636,NS-ORD-1277,order_received,2026-08-06,Sales,Synthetic intake
+EVT-0637,NS-ORD-1278,order_received,2026-09-14,Sales,Synthetic intake
+EVT-0638,NS-ORD-1278,validation_error,2026-09-14,Sales,Missing ship-to corrected
+EVT-0639,NS-ORD-1278,manual_touch,2026-09-14,Sales,Rekey corrected data
+EVT-0640,NS-ORD-1278,manual_touch,2026-09-14,Customer Service,Chase status update
+EVT-0641,NS-ORD-1279,order_received,2026-08-25,Sales,Synthetic intake
+EVT-0642,NS-ORD-1279,manual_touch,2026-08-25,Customer Service,Chase status update
+EVT-0643,NS-ORD-1280,order_received,2026-07-10,Sales,Synthetic intake
+EVT-0644,NS-ORD-1281,order_received,2026-07-03,Sales,Synthetic intake
+EVT-0645,NS-ORD-1281,validation_error,2026-07-03,Sales,Invalid quantity corrected
+EVT-0646,NS-ORD-1281,manual_touch,2026-07-03,Sales,Rekey corrected data
+EVT-0647,NS-ORD-1281,manual_touch,2026-07-03,Customer Service,Chase status update
+EVT-0648,NS-ORD-1282,order_received,2026-08-08,Sales,Synthetic intake
+EVT-0649,NS-ORD-1282,manual_touch,2026-08-08,Customer Service,Chase status update
+EVT-0650,NS-ORD-1283,order_received,2026-10-04,Sales,Synthetic intake
+EVT-0651,NS-ORD-1284,order_received,2026-09-18,Sales,Synthetic intake
+EVT-0652,NS-ORD-1284,manual_touch,2026-09-18,Customer Service,Chase status update
+EVT-0653,NS-ORD-1285,order_received,2026-08-29,Sales,Synthetic intake
+EVT-0654,NS-ORD-1285,manual_touch,2026-08-29,Customer Service,Chase status update
+EVT-0655,NS-ORD-1286,order_received,2026-09-06,Sales,Synthetic intake
+EVT-0656,NS-ORD-1287,order_received,2026-10-02,Sales,Synthetic intake
+EVT-0657,NS-ORD-1287,manual_touch,2026-10-02,Customer Service,Chase status update
+EVT-0658,NS-ORD-1288,order_received,2026-08-26,Sales,Synthetic intake
+EVT-0659,NS-ORD-1288,validation_error,2026-08-26,Sales,Incorrect price corrected
+EVT-0660,NS-ORD-1288,manual_touch,2026-08-26,Sales,Rekey corrected data
+EVT-0661,NS-ORD-1288,manual_touch,2026-08-26,Customer Service,Chase status update
+EVT-0662,NS-ORD-1289,order_received,2026-07-13,Sales,Synthetic intake
+EVT-0663,NS-ORD-1290,order_received,2026-08-20,Sales,Synthetic intake
+EVT-0664,NS-ORD-1290,manual_touch,2026-08-20,Customer Service,Chase status update
+EVT-0665,NS-ORD-1290,cancelled,2026-08-20,Sales,Cancelled before dispatch
+EVT-0666,NS-ORD-1291,order_received,2026-08-12,Sales,Synthetic intake
+EVT-0667,NS-ORD-1291,manual_touch,2026-08-12,Customer Service,Chase status update
+EVT-0668,NS-ORD-1292,order_received,2026-08-30,Sales,Synthetic intake
+EVT-0669,NS-ORD-1293,order_received,2026-07-05,Sales,Synthetic intake
+EVT-0670,NS-ORD-1293,manual_touch,2026-07-05,Customer Service,Chase status update
+EVT-0671,NS-ORD-1294,order_received,2026-08-04,Sales,Synthetic intake
+EVT-0672,NS-ORD-1294,manual_touch,2026-08-04,Customer Service,Chase status update
+EVT-0673,NS-ORD-1295,order_received,2026-10-10,Sales,Synthetic intake
+EVT-0674,NS-ORD-1295,validation_error,2026-10-10,Sales,Missing ship-to corrected
+EVT-0675,NS-ORD-1295,manual_touch,2026-10-10,Sales,Rekey corrected data
+EVT-0676,NS-ORD-1295,manual_touch,2026-10-10,Finance,Request missing handoff information
+EVT-0677,NS-ORD-1296,order_received,2026-08-31,Sales,Synthetic intake
+EVT-0678,NS-ORD-1296,manual_touch,2026-08-31,Customer Service,Chase status update
+EVT-0679,NS-ORD-1297,order_received,2026-07-04,Sales,Synthetic intake
+EVT-0680,NS-ORD-1297,manual_touch,2026-07-04,Customer Service,Chase status update
+EVT-0681,NS-ORD-1297,manual_touch,2026-07-04,Finance,Request missing handoff information
+EVT-0682,NS-ORD-1298,order_received,2026-08-29,Sales,Synthetic intake
+EVT-0683,NS-ORD-1299,order_received,2026-10-02,Sales,Synthetic intake
+EVT-0684,NS-ORD-1299,manual_touch,2026-10-02,Customer Service,Chase status update
+EVT-0685,NS-ORD-1300,order_received,2026-07-20,Sales,Synthetic intake
+EVT-0686,NS-ORD-1300,validation_error,2026-07-20,Sales,Missing ship-to corrected
+EVT-0687,NS-ORD-1300,manual_touch,2026-07-20,Sales,Rekey corrected data
+EVT-0688,NS-ORD-1300,manual_touch,2026-07-20,Customer Service,Chase status update

@@ -1,0 +1,10 @@
+Option,Annual_orders,Minutes_saved,Hourly_rate_GBP,Capacity_hours,Capacity_equivalent_GBP,Annual_running_GBP,Interpretation
+B sensitivity,6000,2,20,200.0,4000.0,1500,Capacity valuation only; not cash ROI
+B sensitivity,6000,2,25,200.0,5000.0,1500,Capacity valuation only; not cash ROI
+B sensitivity,6000,2,30,200.0,6000.0,1500,Capacity valuation only; not cash ROI
+B sensitivity,6000,5,20,500.0,10000.0,1500,Capacity valuation only; not cash ROI
+B sensitivity,6000,5,25,500.0,12500.0,1500,Capacity valuation only; not cash ROI
+B sensitivity,6000,5,30,500.0,15000.0,1500,Capacity valuation only; not cash ROI
+B sensitivity,6000,8,20,800.0,16000.0,1500,Capacity valuation only; not cash ROI
+B sensitivity,6000,8,25,800.0,20000.0,1500,Capacity valuation only; not cash ROI
+B sensitivity,6000,8,30,800.0,24000.0,1500,Capacity valuation only; not cash ROI

@@ -1,0 +1,12 @@
+Source,Role,Role_play_statement,Finding,Problem,Evidence_status
+SIM-SALES-01,Sales,We sometimes learn about missing delivery details only when Warehouse asks.,Validation responsibility and required fields need definition.,PROB-001,Invented role-play; no interview conducted
+SIM-SALES-02,Sales,"Customers cancel, but we cannot always tell whether the order has already shipped.",Cancellation must check downstream state.,PROB-001,Invented role-play; no interview conducted
+SIM-WH-01,Warehouse,A shelf quantity is not a reliable promise if stock is already committed.,Availability and lead times must precede confirmation.,PROB-002,Invented role-play; no interview conducted
+SIM-WH-02,Warehouse,Dispatch paperwork and the recorded stock movement do not always happen together.,Keep physical and posting dates separate.,PROB-002,Invented role-play; no interview conducted
+SIM-CS-01,Customer Service,I ask several teams before I can explain a delay.,An order view and accountable exception owner are needed.,PROB-001,Invented role-play; no interview conducted
+SIM-CS-02,Customer Service,Some customers need part of an order urgently; others reject split shipments.,Record partial-delivery agreement; do not assume one rule for everyone.,PROB-002,Invented role-play; no interview conducted
+SIM-FIN-01,Finance,"Sales wants to release held orders, but Finance must own credit decisions.",Separate request and approval responsibilities.,PROB-002,Invented role-play; no interview conducted
+SIM-FIN-02,Finance,We wait for dispatch emails before reviewing what should be billed.,Reconcile goods-issued deliveries with billing queue daily.,PROB-003,Invented role-play; no interview conducted
+SIM-FIN-03,Finance,We need to explain price corrections without losing the first invoice.,Linked correction records are needed.,PROB-003,Invented role-play; no interview conducted
+SIM-FIN-04,Finance,A receipt can be short or lack a usable invoice reference.,Retain partial and unallocated amounts.,PROB-001,Invented role-play; no interview conducted
+SIM-IT-01,IT,Joining several document lists may duplicate values; custom screens need a clear purpose.,"Agree grains, freshness and standard-first fit.",PROB-001,Invented role-play; no interview conducted

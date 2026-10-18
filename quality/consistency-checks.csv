@@ -1,0 +1,17 @@
+id,check,status,detail,type
+QC-001,Catalogue unique IDs,Passed,3 BR + 15 FR + 5 NFR; 15 stories; 22 test designs,Executed artifact consistency check
+QC-002,All three business problems traced,Passed,Every supplied problem has a trace row,Executed artifact consistency check
+QC-003,Every functional requirement traced,Passed,No functional requirement missing from trace,Executed artifact consistency check
+QC-004,Story/test references valid,Passed,All story requirement and test references resolve,Executed artifact consistency check
+QC-005,Trace and test bidirectional,Passed,Trace test links include the same requirement,Executed artifact consistency check
+QC-006,All tests link valid requirements,Passed,No dangling test requirements,Executed artifact consistency check
+QC-007,All NFRs covered,Passed,All five NFRs linked to planned cases,Executed artifact consistency check
+QC-008,SAP execution labels honest,Passed,No invented test result or SAP defect,Executed artifact consistency check
+QC-009,Seven exceptions covered,Passed,Includes positive and negative partial-delivery permission; pre/post dispatch cancellation,Executed artifact consistency check
+QC-010,Rules and process change IDs,Passed,All 12 rules referenced; 15 unique changes,Executed artifact consistency check
+QC-011,Fit assessment covers FRs,Passed,15 desk-based fit assessments; no claimed tenant demo,Executed artifact consistency check
+QC-012,Source evidence completeness,Passed,Official URLs/access date and demonstration boundary recorded,Executed artifact consistency check
+QC-013,Unverified sources explicit,Passed,Two unreadable Help pages not treated as verified capability,Executed artifact consistency check
+QC-014,Synthetic data checks passed,Passed,24 checks incl. independent Python/SQL and hand-calculated fixture,Executed artifact consistency check
+QC-015,Required files present,Passed,Core narratives/maps exist,Executed artifact consistency check
+QC-016,Learning questions retained,Passed,All twelve learning reviews present; none marked passed,Executed artifact consistency check

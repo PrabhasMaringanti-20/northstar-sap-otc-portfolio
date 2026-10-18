@@ -1,0 +1,6 @@
+Requirement,Functional_anchor,Story,Tests,Validation_status
+NFR-001,FR-014,US-014,TC-007;TC-008;TC-019,SAP not executed; NFR-005 synthetic subset executed
+NFR-002,FR-015,US-015,TC-020,SAP not executed; NFR-005 synthetic subset executed
+NFR-003,FR-015,US-015,TC-020,SAP not executed; NFR-005 synthetic subset executed
+NFR-004,FR-015,US-015,TC-021,SAP not executed; NFR-005 synthetic subset executed
+NFR-005,FR-013,US-013,TC-018,SAP not executed; NFR-005 synthetic subset executed

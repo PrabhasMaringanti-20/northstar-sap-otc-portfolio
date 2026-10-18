@@ -1,0 +1,97 @@
+{
+  "orders": [
+    {
+      "id": "FIX-01",
+      "ordered": 100,
+      "received": 100,
+      "cancelled": 0,
+      "received_day": 1,
+      "promise_day": 5,
+      "full_day": 5,
+      "value": 250000,
+      "deliveries": [
+        60,
+        40
+      ],
+      "allocations": [
+        90000,
+        60000
+      ],
+      "error": 0,
+      "manual": 1
+    },
+    {
+      "id": "FIX-02",
+      "ordered": 100,
+      "received": 40,
+      "cancelled": 0,
+      "received_day": 1,
+      "promise_day": 5,
+      "full_day": null,
+      "value": 250000,
+      "deliveries": [
+        40
+      ],
+      "allocations": [],
+      "error": 1,
+      "manual": 1
+    },
+    {
+      "id": "FIX-03",
+      "ordered": 100,
+      "received": 0,
+      "cancelled": 1,
+      "received_day": 1,
+      "promise_day": 5,
+      "full_day": null,
+      "value": 250000,
+      "deliveries": [],
+      "allocations": [],
+      "error": 0,
+      "manual": 0
+    },
+    {
+      "id": "FIX-04",
+      "ordered": 100,
+      "received": 0,
+      "cancelled": 0,
+      "received_day": 9,
+      "promise_day": 15,
+      "full_day": null,
+      "value": 250000,
+      "deliveries": [],
+      "allocations": [],
+      "error": 0,
+      "manual": 0
+    }
+  ],
+  "as_of_day": 10,
+  "billing_gi_days": [
+    2,
+    3,
+    4
+  ],
+  "billing_invoice_days": [
+    4,
+    6,
+    5
+  ],
+  "expected": {
+    "cycle_days": 4,
+    "otd_pct": 50,
+    "fulfilment_pct": 46.666666666666664,
+    "error_pct": 25,
+    "manual_pct": 50,
+    "billing_days": 2,
+    "order_value_pence": 1000000
+  },
+  "actual": {
+    "cycle_days": 4,
+    "otd_pct": 50.0,
+    "fulfilment_pct": 46.666666666666664,
+    "error_pct": 25.0,
+    "manual_pct": 50.0,
+    "billing_days": 2,
+    "order_value_pence": 1000000
+  }
+}

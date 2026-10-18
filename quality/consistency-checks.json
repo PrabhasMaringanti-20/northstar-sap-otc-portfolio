@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-11",
+  "checks": [
+    {
+      "id": "QC-001",
+      "check": "Catalogue unique IDs",
+      "status": "Passed",
+      "detail": "3 BR + 15 FR + 5 NFR; 15 stories; 22 test designs",
+      "type": "Executed artifact consistency check"
+    },
+    {
+      "id": "QC-002",
+      "check": "All three business problems traced",
+      "status": "Passed",
+      "detail": "Every supplied problem has a trace row",
+      "type": "Executed artifact consistency check"
+    },
+    {
+      "id": "QC-003",
+      "check": "Every functional requirement traced",
+      "status": "Passed",
+      "detail": "No functional requirement missing from trace",
+      "type": "Executed artifact consistency check"
+    },
+    {
+      "id": "QC-004",
+      "check": "Story/test references valid",
+      "status": "Passed",
+      "detail": "All story requirement and test references resolve",
+      "type": "Executed artifact consistency check"
+    },
+    {
+      "id": "QC-005",
+      "check": "Trace and test bidirectional",
+      "status": "Passed",
+      "detail": "Trace test links include the same requirement",
+      "type": "Executed artifact consistency check"
+    },
+    {
+      "id": "QC-006",
+      "check": "All tests link valid requirements",
+      "status": "Passed",
+      "detail": "No dangling test requirements",
+      "type": "Executed artifact consistency check"
+    },
+    {
+      "id": "QC-007",
+      "check": "All NFRs covered",
+      "status": "Passed",
+      "detail": "All five NFRs linked to planned cases",
+      "type": "Executed artifact consistency check"
+    },
+    {
+      "id": "QC-008",
+      "check": "SAP execution labels honest",
+      "status": "Passed",
+      "detail": "No invented test result or SAP defect",
+      "type": "Executed artifact consistency check"
+    },
+    {
+      "id": "QC-009",
+      "check": "Seven exceptions covered",
+      "status": "Passed",
+      "detail": "Includes positive and negative partial-delivery permission; pre/post dispatch cancellation",
+      "type": "Executed artifact consistency check"
+    },
+    {
+      "id": "QC-010",
+      "check": "Rules and process change IDs",
+      "status": "Passed",
+      "detail": "All 12 rules referenced; 15 unique changes",
+      "type": "Executed artifact consistency check"
+    },
+    {
+      "id": "QC-011",
+      "check": "Fit assessment covers FRs",
+      "status": "Passed",
+      "detail": "15 desk-based fit assessments; no claimed tenant demo",
+      "type": "Executed artifact consistency check"
+    },
+    {
+      "id": "QC-012",
+      "check": "Source evidence completeness",
+      "status": "Passed",
+      "detail": "Official URLs/access date and demonstration boundary recorded",
+      "type": "Executed artifact consistency check"
+    },
+    {
+      "id": "QC-013",
+      "check": "Unverified sources explicit",
+      "status": "Passed",
+      "detail": "Two unreadable Help pages not treated as verified capability",
+      "type": "Executed artifact consistency check"
+    },
+    {
+      "id": "QC-014",
+      "check": "Synthetic data checks passed",
+      "status": "Passed",
+      "detail": "24 checks incl. independent Python/SQL and hand-calculated fixture",
+      "type": "Executed artifact consistency check"
+    },
+    {
+      "id": "QC-015",
+      "check": "Required files present",
+      "status": "Passed",
+      "detail": "Core narratives/maps exist",
+      "type": "Executed artifact consistency check"
+    },
+    {
+      "id": "QC-016",
+      "check": "Learning questions retained",
+      "status": "Passed",
+      "detail": "All twelve learning reviews present; none marked passed",
+      "type": "Executed artifact consistency check"
+    }
+  ],
+  "exception_coverage": {
+    "Missing/incorrect customer data": [
+      "TC-002",
+      "TC-003"
+    ],
+    "Insufficient stock": [
+      "TC-004"
+    ],
+    "Partial delivery": [
+      "TC-005",
+      "TC-006"
+    ],
+    "Credit/order block": [
+      "TC-007",
+      "TC-008"
+    ],
+    "Cancellation": [
+      "TC-009",
+      "TC-010"
+    ],
+    "Incorrect invoice": [
+      "TC-013"
+    ],
+    "Partial/unmatched payment": [
+      "TC-014",
+      "TC-015"
+    ]
+  },
+  "status": "Artifact checks passed; final learner/production gates remain open"
+}
